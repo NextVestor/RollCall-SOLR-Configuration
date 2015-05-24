@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+	<doc>
+		<!-- Unique ID for the document at any state. It is a cobination of the state, the user, the datetime stamp, and the GUID-->
+		<field name="id">draft_jmreiger_2015-03-04T10:33:30Z_db1dee4a-ca4a-11e4-8731-1681e6b88ec1</field> 
+		<!--ID - GUID Unique identifier for the video.Created upon creationa nd never changed.-->  
+		<field name="DocID">db1dee4a-ca4a-11e4-8731-1681e6b88ec1</field>
+		<field name="Active">true</field>
+		<!-- The URL slug allows users to customize the url. Use typeahead and prevent moving on is exact match-->
+		<field name="URLSlug">gowdy-warns-democrats-on-obamas-immigration-orders</field>
+		<!-- The state for this document Possible values working | draft | review | published | possible future values | dev | test -->  
+		<field name="state">processing</field>
+		<field name="PriorState"></field>
+		<!-- Cooment stores the comment made when the document is moved from state to state. A record of why an action was taken --> 
+		<field name="Comment" >Rm9yd2FyZGluZyB0byB5b3UgZm9yIHJldmlldw==</field>	
+		<field name="Comment" >Rm9yd2FyZGluZyB0byB5b3UgZm9yIHJldmlldw==</field>				
+		<!--  This will be used in production for failure recovery. Records will be posted to Exist, PostDestination will = Exist. If exist is down then directly to SOLR. Exist will synch by getting all documents with PostDestination = SOLR  -->  
+
+		<field name="PostDestination">SOLR</field>
+		<!-- Primary title for indexing. Title with HTML formatting is in Title_raw  All raw field are base64 encoded -->  
+		<field name="Title" >Gowdy Warns Democrats on Obama's Immigration Orders</field>
+		<field name="Title_raw" >R293ZHkgV2FybnMgRGVtb2NyYXRzIG9uIE9iYW1hJ3MgSW1taWdyYXRpb24gT3JkZXJz</field>
+		<!--  Text Only. Alt titles are used for Social Media, etc. There can be as many as needed. Use will be determined by the type identifier. Users can add new types.  -->  
+		<field name="altTitle">Twitter|Will Gowdy Bird Dog Obama?</field>
+		<field name="altTitle">Facebook|Gowdy is spoiling for another round of confrontation over immigration</field>		
+		<!--  Primary title for indexing. Title with HTML formatting is in Title_raw  All raw field are base64 encoded  -->  
+		<field name="SubTitle">Gowdy has a long history on the immigration issue</field>
+		<field name="SubTitle_raw" >R293ZHkgaGFzIGEgbG9uZyBoaXN0b3J5IG9uIHRoZSBpbW1pZ3JhdGlvbiBpc3N1ZQ==</field>		
+		<!--  Description for indexing. Since this can be HTML the Body_raw field it the actual body in Base64.  -->  
+		<field name="Body">In his opening statement at a House Judiciary Committee hearing Wednesday on President Barack Obama’s immigration executive orders, Rep. Trey Gowdy again hammered the administration for ignoring the rule of law while warning Democrats of the long-term consequences of Obama’s actions.“You may benefit from the president’s failure to enforce the law today, but I’ll make you this promise: there will come a day where you will cry out for the enforcement of the law,” Gowdy said. “There will come a day where you long for the law to be the foundation of this republic. So you be careful what you do with the law today, because if you weaken it today, you weaken it forever.”Gowdy’s comments come as Congress debates fiscal 2015 funding for the Department of Homeland Security and whether to tie-in language defunding Obama’s immigration executive orders.</field>
+		<!-- The raw text will include comments and changes. --> 
+		<field name="Body_raw">PGRpdj48cD5JbiBoaXMgb3BlbmluZyBzdGF0ZW1lbnQgYXQgYSBIb3VzZSBKdWRpY2lhcnkgQ29tbWl0dGVlIGhlYXJpbmcgV2VkbmVzZGF5IG9uIFByZXNpZGVudCBCYXJhY2sgT2JhbWHigJlzIGltbWlncmF0aW9uIGV4ZWN1dGl2ZSBvcmRlcnMsIFJlcC4gVHJleSBHb3dkeSBhZ2FpbiBoYW1tZXJlZCB0aGUgYWRtaW5pc3RyYXRpb24gZm9yIGlnbm9yaW5nIHRoZSBydWxlIG9mIGxhdyB3aGlsZSB3YXJuaW5nIERlbW9jcmF0cyBvZiB0aGUgbG9uZy10ZXJtIGNvbnNlcXVlbmNlcyBvZiBPYmFtYeKAmXMgYWN0aW9ucy7igJxZb3UgbWF5IGJlbmVmaXQgZnJvbSB0aGUgcHJlc2lkZW504oCZcyBmYWlsdXJlIHRvIGVuZm9yY2UgdGhlIGxhdyB0b2RheSwgYnV0IEnigJlsbCBtYWtlIHlvdSB0aGlzIHByb21pc2U6IHRoZXJlIHdpbGwgY29tZSBhIGRheSB3aGVyZSB5b3Ugd2lsbCBjcnkgb3V0IGZvciB0aGUgZW5mb3JjZW1lbnQgb2YgdGhlIGxhdyzigJ0gR293ZHkgc2FpZC4g4oCcVGhlcmUgd2lsbCBjb21lIGEgZGF5IHdoZXJlIHlvdSBsb25nIGZvciB0aGUgbGF3IHRvIGJlIHRoZSBmb3VuZGF0aW9uIG9mIHRoaXMgcmVwdWJsaWMuIFNvIHlvdSBiZSBjYXJlZnVsIHdoYXQgeW91IGRvIHdpdGggdGhlIGxhdyB0b2RheSwgYmVjYXVzZSBpZiB5b3Ugd2Vha2VuIGl0IHRvZGF5LCB5b3Ugd2Vha2VuIGl0IGZvcmV2ZXIuPC9wPjxwPuKAnUdvd2R54oCZcyBjb21tZW50cyBjb21lIGFzIENvbmdyZXNzIGRlYmF0ZXMgZmlzY2FsIDIwMTUgZnVuZGluZyBmb3IgdGhlIERlcGFydG1lbnQgb2YgSG9tZWxhbmQgU2VjdXJpdHkgYW5kIHdoZXRoZXIgdG8gdGllLWluIGxhbmd1YWdlIGRlZnVuZGluZyBPYmFtYeKAmXMgaW1taWdyYXRpb24gZXhlY3V0aXZlIG9yZGVycy48L3A+PC9kaXY+</field>
+		<!--  This is the list ot people that contributed to this video. There may be a number of different contributors, Author, Videographer, etc.   -->  
+		<field name="Contributor" >Author|Meredith Dake</field>		
+		<!--  URL locations for the the videos. We will need to use the file extension to detect the mimetype  --> 
+		<field name="VideoLocation">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.mp4</field>
+		<field name="VideoLocation">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.ogg</field>
+		<field name="VideoLocation"> http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.webm</field>		
+		<!-- This field is used to index the file name. No extension.    -->  
+		<field name="VideoFileName">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate</field>
+		
+		<!-- This field holds the URL of the location of the original splash image selected or uploaded. --> 
+		<field name="SplashImageOriginal">http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.jpg</field>
+		<!-- These references are the splash images that are used for the various display formats. There may be as many of these as is necessary. For now the naming convention will determine which image to use. --> 
+		<field name="SplashImageDerived">http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.cropped.landscape.680w-360h.jpg</field>
+		<field name="SplashImageDerived">http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.cropped.portait.569w-405.jpg</field>
+		<!-- This field is used to index the file name. No extension.    -->  		
+		<field name="SplashImageFileName">/images/yyyy/mm/filename</field>		
+		<!-- Record of who uploaded the video   -->  
+		<field name="Uploader">JM Reiger</field>
+		<!-- Record of when it was uploaded   -->  
+		<field name="UploadDate">2015-03-04T10:33:30Z</field>
+		<!--  Aspect ratio of the video. Hopefully we can auto-detect this  -->  
+		<field name="VideoAspectRatio">16:9</field>
+		<!--  How was the video uploaded?  -->  
+		<field name="UploadMethod">Browser</field>
+		<!-- CurrentUser The user id of the user that made changes to this verison --> 
+		<field name="CurrentUser">Jkeeney</field>			
+		
+		<!--  Dates  --> 
+		<!--  Date that the content record was created. Different from the upload date which is the date tha the video was pushed to the server. This date is specific to the state. So when the document moves from one state to another this date is set again.   --> 
+	 
+		<field name="CreatedDate">2015-03-04T13:34:30Z</field> 
+		<!--  Last modified date. Leave blank if no changes have been made.  -->  
+		<field name="UpdateDate">2015-03-05T09:34:30Z</field>
+		<!--  Publish date is the date video is first published. If this is set to the future then the content is embargoed and should nto be shown. This is how we will handle delayed release. Show everything that does not have a publish date in the future. -->  
+		<field name="PublishDate">2015-03-05T09:34:30Z</field>
+		<!--  Tags are organized in catgories. Categories have their own field so we can show them correctly and facet on them.  Users can create new categories and new tags -->  
+		<field name="Category">Subject</field>
+		<field name="Category">Topic</field>		
+		<!-- Tage are preceded by the category they are from.   -->  
+		<field name="Tag">Subject|Politics</field>		
+		<field name="Tag">Subject|Immigration</field>
+		<field name="Tag">Topic|Repulicans</field>		
+		<field name="Tag">Topic|Senate</field>		
+				
+	</doc>
+</add>

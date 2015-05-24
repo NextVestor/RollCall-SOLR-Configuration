@@ -1,0 +1,220 @@
+      {
+        "id": "42c5011d-50e1-4909-8a1c-9824be5bba3a",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Abortion & Contraception",
+          "topic_abortion_and_contraception",
+          "Abortion & Contraception"
+        ],
+        "CQRCid": "3742",
+        "Tag": "Abortion & Contraception",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_abortion_and_contraception"
+        ],
+        "Title": "Abortion & Contraception",
+        "Title_raw": "QWJvcnRpb24gJiBDb250cmFjZXB0aW9u",
+        "Query": "Tag:'Topic|Abortion & Contraception'",
+        "_version_": 1501086024621621200
+      },
+      {
+        "id": "9c73cae2-c813-4807-99fa-a5434acbe2e7",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Afghanistan",
+          "topic_afghanistan",
+          "Afghanistan"
+        ],
+        "CQRCid": "3743",
+        "Tag": "Afghanistan",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_afghanistan"
+        ],
+        "Title": "Afghanistan",
+        "Title_raw": "QWZnaGFuaXN0YW4=",
+        "Query": "Tag:'Topic|Afghanistan'",
+        "_version_": 1501086024623718400
+      },
+      {
+        "id": "fa39453c-0c2e-4c98-a365-87958d3000f6",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Agriculture Appropriations/Spending/Budget",
+          "topic_agriculture_appropriations_spending_budget",
+          "Agriculture Appropriations/Spending/Budget"
+        ],
+        "CQRCid": "3744",
+        "Tag": "Agriculture Appropriations/Spending/Budget",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_agriculture_appropriations_spending_budget"
+        ],
+        "Title": "Agriculture Appropriations/Spending/Budget",
+        "Title_raw": "QWdyaWN1bHR1cmUgQXBwcm9wcmlhdGlvbnMvU3BlbmRpbmcvQnVkZ2V0",
+        "Query": "Tag:'Topic|Agriculture Appropriations/Spending/Budget'",
+        "_version_": 1501086024623718400
+      },
+      {
+        "id": "fdf919e2-bd6d-4ea0-82fe-202659323f6c",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Amtrak & Passenger Rail",
+          "topic_amtrak_and_passenger_rail",
+          "Amtrak & Passenger Rail"
+        ],
+        "CQRCid": "3746",
+        "Tag": "Amtrak & Passenger Rail",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_amtrak_and_passenger_rail"
+        ],
+        "Title": "Amtrak & Passenger Rail",
+        "Title_raw": "QW10cmFrICYgUGFzc2VuZ2VyIFJhaWw=",
+        "Query": "Tag:'Topic|Amtrak & Passenger Rail'",
+        "_version_": 1501086024623718400
+      },
+      {
+        "id": "0a18ca73-2916-437b-a965-4de7997ba71f",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Aviation",
+          "topic_aviation",
+          "Aviation"
+        ],
+        "CQRCid": "3748",
+        "Tag": "Aviation",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_aviation"
+        ],
+        "Title": "Aviation",
+        "Title_raw": "QXZpYXRpb24=",
+        "Query": "Tag:'Topic|Aviation'",
+        "_version_": 1501086024623718400
+      },
+      {
+        "id": "d22d0b9e-a7cb-4858-8b3b-19f80eea5062",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Base Realignment & Closure",
+          "topic_base_realignment_and_closure",
+          "Base Realignment & Closure"
+        ],
+        "CQRCid": "3749",
+        "Tag": "Base Realignment & Closure",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_base_realignment_and_closure"
+        ],
+        "Title": "Base Realignment & Closure",
+        "Title_raw": "QmFzZSBSZWFsaWdubWVudCAmIENsb3N1cmU=",
+        "Query": "Tag:'Topic|Base Realignment & Closure'",
+        "_version_": 1501086024623718400
+      },
+      {
+        "id": "c477f58e-724f-4d59-9721-83113611d87a",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Border Control",
+          "topic_border_control",
+          "Border Control"
+        ],
+        "CQRCid": "3751",
+        "Tag": "Border Control",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_border_control"
+        ],
+        "Title": "Border Control",
+        "Title_raw": "Qm9yZGVyIENvbnRyb2w=",
+        "Query": "Tag:'Topic|Border Control'",
+        "_version_": 1501086024623718400
+      },
+      {
+        "id": "4bf4d52c-456d-4c7b-b136-3ec3c92a9dde",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "CHIP Children's Health Insurance Program",
+          "topic_chip_children_s_health_insurance_program",
+          "CHIP Children's Health Insurance Program"
+        ],
+        "CQRCid": "6864",
+        "Tag": "CHIP Children's Health Insurance Program",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_chip_children_s_health_insurance_program"
+        ],
+        "Title": "CHIP Children's Health Insurance Program",
+        "Title_raw": "Q0hJUCBDaGlsZHJlbidzIEhlYWx0aCBJbnN1cmFuY2UgUHJvZ3JhbQ==",
+        "Query": "Tag:'Topic|CHIP Children's Health Insurance Program'",
+        "_version_": 1501086024624767000
+      },
+      {
+        "id": "58837531-5ece-4156-a627-27941e96e914",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Coal",
+          "topic_coal",
+          "Coal"
+        ],
+        "CQRCid": "3755",
+        "Tag": "Coal",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_coal"
+        ],
+        "Title": "Coal",
+        "Title_raw": "Q29hbA==",
+        "Query": "Tag:'Topic|Coal'",
+        "_version_": 1501086024624767000
+      },
+      {
+        "id": "9b971c58-1c13-423b-8f8d-a45174157dbf",
+        "Category_str": "Topic",
+        "Category": "Topic",
+        "text": [
+          "Topic",
+          "Commerce-Justice-Science Appropriations/Spending/Budget",
+          "topic_commerce-justice-science_appropriations_spending_budget",
+          "Commerce-Justice-Science Appropriations/Spending/Budget"
+        ],
+        "CQRCid": "3756",
+        "Tag": "Commerce-Justice-Science Appropriations/Spending/Budget",
+        "Contributor": "CQ/Roll Call",
+        "Private": "false",
+        "URLSlug": [
+          "topic_commerce-justice-science_appropriations_spending_budget"
+        ],
+        "Title": "Commerce-Justice-Science Appropriations/Spending/Budget",
+        "Title_raw": "Q29tbWVyY2UtSnVzdGljZS1TY2llbmNlIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+        "Query": "Tag:'Topic|Commerce-Justice-Science Appropriations/Spending/Budget'",
+        "_version_": 1501086024624767000
+      }

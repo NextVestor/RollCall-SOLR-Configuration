@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+	<doc>
+		<field name="id">42c5011d-50e1-4909-8a1c-9824be5bba3a</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3742</field>
+		<field name="Tag">Abortion &amp; Contraception</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">9c73cae2-c813-4807-99fa-a5434acbe2e7</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3743</field>
+		<field name="Tag">Afghanistan</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">fa39453c-0c2e-4c98-a365-87958d3000f6</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3744</field>
+		<field name="Tag">Agriculture Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">fdf919e2-bd6d-4ea0-82fe-202659323f6c</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3746</field>
+		<field name="Tag">Amtrak &amp; Passenger Rail</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">0a18ca73-2916-437b-a965-4de7997ba71f</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3748</field>
+		<field name="Tag">Aviation</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">d22d0b9e-a7cb-4858-8b3b-19f80eea5062</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3749</field>
+		<field name="Tag">Base Realignment &amp; Closure</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">c477f58e-724f-4d59-9721-83113611d87a</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3751</field>
+		<field name="Tag">Border Control</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">4bf4d52c-456d-4c7b-b136-3ec3c92a9dde</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6864</field>
+		<field name="Tag">CHIP Children's Health Insurance Program</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">58837531-5ece-4156-a627-27941e96e914</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3755</field>
+		<field name="Tag">Coal</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">9b971c58-1c13-423b-8f8d-a45174157dbf</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3756</field>
+		<field name="Tag">Commerce-Justice-Science Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a1476507-6340-4415-8bd2-c1382830e035</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6862</field>
+		<field name="Tag">Common Core</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">decc4f48-7888-4dec-830f-fc188ca7fa6b</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">5862</field>
+		<field name="Tag">Continuing Resolution</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">f8434432-bb3e-4796-9969-b51470dfdf6e</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3757</field>
+		<field name="Tag">Cybersecurity</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">0d6322a4-a130-4b6a-be4d-f2f1312f6d02</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3758</field>
+		<field name="Tag">Defense Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">75efffc9-bdda-427f-8a1b-cd6abdd896da</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3760</field>
+		<field name="Tag">Deficit &amp; Debt Limit</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">e66a7b4a-bcb1-4c5b-90e2-0eca6f7e9425</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3763</field>
+		<field name="Tag">Doc Fix</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">da28b681-6b72-4519-a8f0-9b93ceb69a3f</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3863</field>
+		<field name="Tag">Drones</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">f8ad8017-45b7-4752-8d9f-2dfc580c29dd</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3865</field>
+		<field name="Tag">EPA</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">29e2b599-e410-4900-a4c1-7a552e15006f</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3741</field>
+		<field name="Tag">Education K-12</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">47122b94-9471-4ad6-92f4-1b5cc23c12ba</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3762</field>
+		<field name="Tag">Emergency Management</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">324f3d23-3c62-487a-9807-c8b696e21d98</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3864</field>
+		<field name="Tag">Energy Regulation</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">bebc5b23-6936-4110-85c3-965ee2d510b5</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3770</field>
+		<field name="Tag">Energy-Water Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a47f6bb8-2daa-41b3-956b-f63eb7c05f64</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3773</field>
+		<field name="Tag">FDA</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">d078ed14-c234-4132-85f7-8776912a6d5f</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3772</field>
+		<field name="Tag">Farm Bill</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">0aaa0cca-d079-4cb5-9f83-44ad6ce971bd</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3752</field>
+		<field name="Tag">Federal Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">3da30b20-0daf-4e71-b7c6-0ab0ca7f9320</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6863</field>
+		<field name="Tag">Filibuster</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">9ee16139-4b9c-4b1b-8a10-d6c7fc75f3a1</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3761</field>
+		<field name="Tag">Financial Regulation</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">c81fd846-603d-4f47-891d-ba784ee8a1db</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3774</field>
+		<field name="Tag">Financial Services Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">7aab3126-f30b-43a7-bcd6-b2b51f4563b9</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3776</field>
+		<field name="Tag">Food Safety</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">db471031-57d8-47f2-9db4-14457e89a710</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3866</field>
+		<field name="Tag">Government-Sponsored Enterprises</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">efc9792b-3c41-47a1-a44e-18f136030c2c</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">5402</field>
+		<field name="Tag">Health Care Law</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">6e157c74-0e5b-4066-b460-09ac7e7c5053</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3779</field>
+		<field name="Tag">Higher Education Act Reauthorization</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">2c68bb64-c8a2-401f-ac85-9d0c0fd952fa</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3780</field>
+		<field name="Tag">Highway Bill</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">f9140cb8-5ca0-4c9a-aaf8-4bb2b102dbe6</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3782</field>
+		<field name="Tag">Homeland Security Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">98d773c0-6efd-4bc7-bb94-cf014a4c93ec</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3784</field>
+		<field name="Tag">Immigration</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">e8afbbfe-e700-47fe-b067-cc96b118fdf9</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3785</field>
+		<field name="Tag">Intelligence Authorization</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">bc7513c6-11b0-43bd-8832-b14ef4d72568</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3786</field>
+		<field name="Tag">Interior-Environment Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">30c3c394-a56b-4fd4-9748-f985b821360d</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3787</field>
+		<field name="Tag">Iran</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">e55c865b-5a5e-454b-bb3e-93ee8ed4693d</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">5401</field>
+		<field name="Tag">Iraq</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a7ed5a5a-a3c2-4bae-8b03-092a5e5fe126</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6821</field>
+		<field name="Tag">Keystone XL Pipeline</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">018f3ad0-c41c-4951-a9fc-61a8bff71e60</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3790</field>
+		<field name="Tag">Labor-HHS-Education Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a5ed510a-7c2a-4325-846c-bdfac8b4701d</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3791</field>
+		<field name="Tag">Legislative Branch Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">ef21fcff-fbd9-4637-ad07-ed6793bc6728</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3867</field>
+		<field name="Tag">Marijuana</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">dbc3e59e-4998-4c87-853e-41f2b5e107fe</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3793</field>
+		<field name="Tag">Medicaid</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">9662a91e-e205-474b-9e9f-e1a112b5911b</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3795</field>
+		<field name="Tag">Medicare</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">8cc59bb1-5610-49d1-bbce-819df5a5b750</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3796</field>
+		<field name="Tag">Mental Health</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">e3e27a82-38cb-48d4-ae21-ce76d4995914</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3798</field>
+		<field name="Tag">Military Construction-VA Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">3f7b69c6-941e-4095-a9e7-72caffd8774e</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3800</field>
+		<field name="Tag">Minimum Wage</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a21b9d94-5f2b-4a60-b876-8b9de993c101</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3804</field>
+		<field name="Tag">NSA</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">d3724316-a996-47d9-9d06-1a3da00a66f6</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6865</field>
+		<field name="Tag">National Institutes of Health</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">df913fc7-0c8f-480d-a043-6563414e00d2</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3805</field>
+		<field name="Tag">Nuclear Energy</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">973caefb-8fb9-4d7d-bbf2-4ba131b68fa4</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3806</field>
+		<field name="Tag">Nuclear Weapons</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">e7126ee0-cd31-4d9d-b0f7-0a00c84986ed</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3809</field>
+		<field name="Tag">Oil &amp; Natural Gas</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">610fad27-2eda-4ae2-8e37-fbee31807347</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3810</field>
+		<field name="Tag">Online Sales Taxes</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">1999a625-1369-4fcc-9759-201f038c06cc</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3812</field>
+		<field name="Tag">Patents</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">aea568e0-3b6b-460f-ab27-1f7257ac8865</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6121</field>
+		<field name="Tag">Postal Service</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">fc91ea90-61fd-4802-862f-bd0e0b33ffda</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3816</field>
+		<field name="Tag">Prison Sentencing</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">3c529e43-c766-4d8f-b846-059d97471a03</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3818</field>
+		<field name="Tag">Public Transit</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a73d2cb6-18c6-47ea-ab08-83019079e60d</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6867</field>
+		<field name="Tag">Russia</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">66658c02-29a1-409a-8a9c-7d0730fcf1d2</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3882</field>
+		<field name="Tag">SNAP Supplemental Nutrition Assistance Program</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">3416b8ce-401a-45c1-bf8d-b9b8e31e58be</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3821</field>
+		<field name="Tag">Same-Sex Marriage</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">84c89ef1-8638-47f4-bc73-a66541ddc537</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3822</field>
+		<field name="Tag">Sequester</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">accc1a6d-8600-484b-ae81-b078e281bd93</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3823</field>
+		<field name="Tag">Social Security</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">11a8fadf-4f59-4686-bc0c-a43b32300f4c</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3825</field>
+		<field name="Tag">State-Foreign Operations Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">d76aa187-7ed2-47f0-990b-34807bc99d07</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3826</field>
+		<field name="Tag">Student Loans</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">121a3371-7dd7-43f9-8013-5053df72811a</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3828</field>
+		<field name="Tag">Syria</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">3d5cc6d8-6067-4de9-a9d5-e792b0577aab</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3829</field>
+		<field name="Tag">Tax Law</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a076c2cb-6791-4dbb-ad59-f31688996afe</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6866</field>
+		<field name="Tag">Tobacco Regulation</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">7a2a8198-5829-43bc-9099-03147c6b71d4</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">6868</field>
+		<field name="Tag">Trade Policy</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">b089381e-5eb3-4519-aec0-d6316e3225bd</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3831</field>
+		<field name="Tag">Transportation Safety</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">e751c36a-72f5-4e51-91f9-b1ba0884a6ed</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3832</field>
+		<field name="Tag">Transportation-HUD Appropriations/Spending/Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">5cd27073-11f2-404c-9190-b787782ecf9c</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3797</field>
+		<field name="Tag">VA Health Care</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a8d4ae0e-ee12-4ad7-a4e5-3467c2c420e1</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3835</field>
+		<field name="Tag">Voting Rights</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">50d2e83f-e7bc-44f7-bb07-b5ef353b080e</field>
+		<field name="Category">Topic</field>
+		<field name="CQRCid">3881</field>
+		<field name="Tag">War Spending</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">355c78c2-0ae7-4643-853c-83a76164b7db</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">50</field>
+		<field name="Tag">Agriculture</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">10669953-618d-4008-bceb-0f2a8563c62d</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">51</field>
+		<field name="Tag">Appropriations</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">023bac88-9a04-43fa-ba3b-52ee8603192f</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">53</field>
+		<field name="Tag">Budget</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">92e3c04c-ffab-41d6-9ed3-19047a221f92</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">55</field>
+		<field name="Tag">Congressional Affairs</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">9e820c9d-32e2-4843-90ac-cea5118f81ab</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">56</field>
+		<field name="Tag">Defense</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">32f927e8-c75c-4659-8eb4-eaa6846a5bba</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">57</field>
+		<field name="Tag">Economy</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a0050993-d2c3-4e67-b315-bfe1882a909c</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">58</field>
+		<field name="Tag">Education</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">b0f1fd0f-7862-4fa4-aea9-759687694a0f</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">59</field>
+		<field name="Tag">Employment &amp; Labor</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">5c947f50-3416-4750-8e5c-ef55e624e607</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">60</field>
+		<field name="Tag">Energy</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">7142fa9b-6777-4657-b69d-a9f65760114d</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">61</field>
+		<field name="Tag">Environment</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">0a4c58e9-df19-4cbf-b4ba-0cd45fa9d72a</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">62</field>
+		<field name="Tag">Executive Branch</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">af526e16-8648-4e80-850f-2b80086c2168</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">63</field>
+		<field name="Tag">Government Operations</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">53e89370-aa98-435b-9151-41fa86a2b792</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">64</field>
+		<field name="Tag">Health</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">62dbfb36-6b9e-40d6-b788-6306e2301e33</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">65</field>
+		<field name="Tag">American Indians</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">26ee634f-9870-402f-96fe-9fd02f0b4021</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">69</field>
+		<field name="Tag">Elections</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">b7f321e4-e01e-4a88-b58e-5636787b0394</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">70</field>
+		<field name="Tag">Science</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">44d77a13-a3f5-4c15-b4a3-9e012f492a02</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">72</field>
+		<field name="Tag">Taxes</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">98aa0a43-4c23-4584-a050-27354f678962</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">74</field>
+		<field name="Tag">Trade</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">71283dab-9081-4fba-86e0-d52a81f95879</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">75</field>
+		<field name="Tag">Transportation &amp; Infrastructure</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">dd1a250b-6665-478e-8bed-f62be5dec4b9</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">76</field>
+		<field name="Tag">Veterans</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">08a64ae7-1108-4f52-b681-50b16d800c84</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">77</field>
+		<field name="Tag">Abortion</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">f5e7fa3e-1465-49dd-8a75-00ff8a16ba70</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">78</field>
+		<field name="Tag">Homeland Security</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">3b272c9e-c8dd-42e4-bbc5-bd2f93be066f</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">79</field>
+		<field name="Tag">Immigration</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">b5a2c42e-e037-408a-8b2f-8224486ea481</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">80</field>
+		<field name="Tag">Intelligence</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">1ad767c7-aa51-431d-a585-689a13fc2d02</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">81</field>
+		<field name="Tag">Pensions &amp; Retirement</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">1e12491f-f9cd-4f0f-90d6-9de0115ea35f</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">82</field>
+		<field name="Tag">Regulatory Policy</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">878ed70a-68ee-4247-89c3-b0b884ea7ab4</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">83</field>
+		<field name="Tag">Welfare &amp; Housing</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a93f6fab-f2e6-4740-bfe3-0c163fdbdc75</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">84</field>
+		<field name="Tag">Technology &amp; Communications</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">12fb8f7a-a8e6-4957-bf32-cbc656d2cb3d</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">85</field>
+		<field name="Tag">Financial Services</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">d2d102ae-9586-4672-8a73-7e650d161f8b</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">86</field>
+		<field name="Tag">Foreign Policy</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">8e2432a9-eeae-4ed1-aec4-9edc5f4c0a49</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">87</field>
+		<field name="Tag">Legal Affairs</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">0f45c1c2-1fd7-4d1d-abe7-058c39f24671</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">93</field>
+		<field name="Tag">Campaign Finance</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">a88940fe-e7ff-4911-96d4-82d51b95a1dd</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">94</field>
+		<field name="Tag">Lobbying</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">c77ab6f3-04d5-4149-9101-6c21706cde14</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">95</field>
+		<field name="Tag">Ethics</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">b8c4d481-7aea-4536-ac0a-b706d71bba0d</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">96</field>
+		<field name="Tag">Business</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">385b76e5-09ff-476c-abf7-356c7030951f</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">97</field>
+		<field name="Tag">Consumer Affairs</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">594332b7-0e11-42b3-b749-3c37b9a0cc38</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">98</field>
+		<field name="Tag">Medicare &amp; Medicaid</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+	<doc>
+		<field name="id">8ddb0d02-d381-4775-a050-917b2bf09fc4</field>
+		<field name="Category">Subject</field>
+		<field name="CQRCid">100</field>
+		<field name="Tag">Human Services</field>
+		<field name="Contributor">CQ/Roll Call</field>
+		<field name="Private">false</field>
+	</doc>
+</add>

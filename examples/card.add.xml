@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+	<doc>
+		<!-- Unique ID for the card. It is the unique id for the page + the card number.  It is the combination of the state, the user that uploaded the document, the original date time stamp and the filename that they uploaded Base 64 encode-->
+		<field name="id">cf5e7288-ca53-11e4-8731-1681e6b88ec1</field> <!-- card1|working|jkeeney|20150304T13:34:30 -->
+		<!-- ID without the state Gives us the ability to get all related documents regardless of state Base 64 encode.-->  
+		<field name="PageID">draft_jkeeney_homepage_2015-03-04T13:34:30Z_84eed782-ca4f-11e4-8731-1681e6b88ec1</field> <!-- unique id of the page that holds the card. = id for page record --> 
+		<!-- The DocID of the video that is referenced by the card --> 
+		<field name="DocID">db1dee4a-ca4a-11e4-8731-1681e6b88ec1</field>
+		<field name="CardOrder">1</field>
+		<field name="Active">true</field> <!-- if the card is on the home page canvas this is set to true. If the card has been dragged off the canvas and is in the workspace in the right rail it then set Active to false. We can implement the working space as an additional ajax call after page load. The query would be give me all the cards with this page id and active=false. --> 		
+		<field name="CardType">video</field>
+		<!--  This will be used in production for failure recovery. Records will be posted to Exist, PostDestination will = Exist. If exist is down then directly to SOLR. Exist will synch by getting all documents with PostDestination = SOLR  --> 
+		<field name="PostDestination">SOLR</field>
+		<field name="CardFormat" >LargeLandacape</field>
+		<field name="CardColumnSpan" >2</field>
+		<!-- By default this would equal the title of the asset. However, the user may override. We will use track changes to determine if it has been overridden. If the asset is updated then this index needs to be checked and the title updated or the user presented with the choice. Do we need the search version? Will users want to be able to searhc for any page that contained a reference to a certain word?  --> 
+		<field name="CardTitle">Gowdy Warns Democrats on Obama's Immigration Orders</field>
+		<!--  Primary title for indexing. Title with HTML formatting is in Title_raw  All raw field are base64 encoded  -->  		
+		<field name="CardTitle_raw">R293ZHkgV2FybnMgRGVtb2NyYXRzIG9uIE9iYW1hJ3MgSW1taWdyYXRpb24gT3JkZXJz</field>
+		<field name="CardSubTitle">Gowdy Warns Democrats on Obama's Immigration Orders</field>
+		<field name="CardSubTitle_raw">R293ZHkgV2FybnMgRGVtb2NyYXRzIG9uIE9iYW1hJ3MgSW1taWdyYXRpb24gT3JkZXJz</field>		
+		<!--  We will need these as well. Text Only. Alt titles are used for Social Media, etc. There can be as many as needed. Use will be determined by the type identifier. Users can add new types.  -->  
+		<field name="altTitle">Twitter|Will Gowdy Bird Dog Obama?</field>
+		<field name="altTitle">Facebook|Gowdy is spoiling for another round of confrontation over immigration</field>		
+
+		<!--  Description for indexing. Since this can be HTML the Body_raw field it the actual body in Base64.  -->  
+		<field name="CardBody">In his opening statement at a House Judiciary Committee hearing Wednesday on President Barack Obama’s immigration executive orders, Rep. Trey Gowdy again hammered the administration for ignoring the rule of law while warning Democrats of the long-term consequences of Obama’s actions.“You may benefit from the president’s failure to enforce the law today, but I’ll make you this promise: there will come a day where you will cry out for the enforcement of the law,” Gowdy said. “There will come a day where you long for the law to be the foundation of this republic. So you be careful what you do with the law today, because if you weaken it today, you weaken it forever.”Gowdy’s comments come as Congress debates fiscal 2015 funding for the Department of Homeland Security and whether to tie-in language defunding Obama’s immigration executive orders.</field>
+		<!-- The raw text will include comments and changes. --> 
+		<field name="CardBody_raw">PGRpdj48cD5JbiBoaXMgb3BlbmluZyBzdGF0ZW1lbnQgYXQgYSBIb3VzZSBKdWRpY2lhcnkgQ29tbWl0dGVlIGhlYXJpbmcgV2VkbmVzZGF5IG9uIFByZXNpZGVudCBCYXJhY2sgT2JhbWHigJlzIGltbWlncmF0aW9uIGV4ZWN1dGl2ZSBvcmRlcnMsIFJlcC4gVHJleSBHb3dkeSBhZ2FpbiBoYW1tZXJlZCB0aGUgYWRtaW5pc3RyYXRpb24gZm9yIGlnbm9yaW5nIHRoZSBydWxlIG9mIGxhdyB3aGlsZSB3YXJuaW5nIERlbW9jcmF0cyBvZiB0aGUgbG9uZy10ZXJtIGNvbnNlcXVlbmNlcyBvZiBPYmFtYeKAmXMgYWN0aW9ucy7igJxZb3UgbWF5IGJlbmVmaXQgZnJvbSB0aGUgcHJlc2lkZW504oCZcyBmYWlsdXJlIHRvIGVuZm9yY2UgdGhlIGxhdyB0b2RheSwgYnV0IEnigJlsbCBtYWtlIHlvdSB0aGlzIHByb21pc2U6IHRoZXJlIHdpbGwgY29tZSBhIGRheSB3aGVyZSB5b3Ugd2lsbCBjcnkgb3V0IGZvciB0aGUgZW5mb3JjZW1lbnQgb2YgdGhlIGxhdyzigJ0gR293ZHkgc2FpZC4g4oCcVGhlcmUgd2lsbCBjb21lIGEgZGF5IHdoZXJlIHlvdSBsb25nIGZvciB0aGUgbGF3IHRvIGJlIHRoZSBmb3VuZGF0aW9uIG9mIHRoaXMgcmVwdWJsaWMuIFNvIHlvdSBiZSBjYXJlZnVsIHdoYXQgeW91IGRvIHdpdGggdGhlIGxhdyB0b2RheSwgYmVjYXVzZSBpZiB5b3Ugd2Vha2VuIGl0IHRvZGF5LCB5b3Ugd2Vha2VuIGl0IGZvcmV2ZXIuPC9wPjxwPuKAnUdvd2R54oCZcyBjb21tZW50cyBjb21lIGFzIENvbmdyZXNzIGRlYmF0ZXMgZmlzY2FsIDIwMTUgZnVuZGluZyBmb3IgdGhlIERlcGFydG1lbnQgb2YgSG9tZWxhbmQgU2VjdXJpdHkgYW5kIHdoZXRoZXIgdG8gdGllLWluIGxhbmd1YWdlIGRlZnVuZGluZyBPYmFtYeKAmXMgaW1taWdyYXRpb24gZXhlY3V0aXZlIG9yZGVycy48L3A+PC9kaXY+</field>
+		<!--  This will be displayed so include this. This is the list ot people that contributed to this video. There may be a number of different contributors, Author, Videographer, etc.   -->  
+		<field name="Contributor" >Author|Meredith Dake</field>		
+		<!--  URL locations for the the videos. We will need to use the file extension to detect the mimetype  --> 
+		<field name="VideoLocation">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.mp4</field>
+		<field name="VideoLocation">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.ogg</field>
+		<field name="VideoLocation">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.webm</field>		
+		<!-- This field is used to index the file name. No extension.    -->  
+		<field name="VideoFileName">http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate</field>
+		
+		<!-- This field holds the URL of the location of the original splash image selected or uploaded. --> 
+		<field name="SplashImageOriginal">http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.jpg</field>
+		<!-- These references are the splash images that are used for the various display formats. There may be as many of these as is necessary. For now the naming convention will determine which image to use. --> 
+		<field name="SplashImageDerived">http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.cropped.landscape.680w-360h.jpg</field>
+		<field name="SplashImageDerived">http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.cropped.portait.569w-405.jpg</field>
+	
+		<!--  Dates  --> 
+		 <!-- dates managed are fewer. just created and UpdateDate  -->
+		<field name="CreatedDate">2015-03-04T13:34:30Z</field> 
+		<!--  Last modified date. Leave blank if no changes have been made.  -->  
+		<field name="UpdateDate">2015-03-05T09:34:30Z</field>		 
+
+		<!--  Tags are needed for display. Tags are organized in catgories. Categories have their own field so we can show them correctly and facet on them.  Users can create new categories and new tags -->  
+		<field name="Category">Subject</field>
+		<field name="Category">Topic</field>		
+		<!-- Tage are preceded by the category they are from.   -->  
+		<field name="Tag">Subject|Politics</field>		
+		<field name="Tag">Subject|Immigration</field>
+		<field name="Tag">Topic|Republicans</field>		
+		<field name="Tag">Topic|Senate</field>		
+				
+	</doc>
+</add>

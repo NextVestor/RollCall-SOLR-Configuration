@@ -1,0 +1,42 @@
+{
+	"add": {
+		"doc": {
+			"id": "cf5e7288-ca53-11e4-8731-1681e6b88ec1",
+			"PageID": "draft_jkeeney_homepage_2015-03-04T13:34:30Z_84eed782-ca4f-11e4-8731-1681e6b88ec1",
+			"DocID": "db1dee4a-ca4a-11e4-8731-1681e6b88ec1",
+			"CardOrder": "1",
+			"Active": "true",
+			"CardType": "video",
+			"PostDestination": "SOLR",
+			"CardFormat": "LargeLandacape",
+			"CardColumnSpan": "2",
+			"CardTitle": "Gowdy Warns Democrats on Obama's Immigration Orders",
+			"CardTitle_raw": "R293ZHkgV2FybnMgRGVtb2NyYXRzIG9uIE9iYW1hJ3MgSW1taWdyYXRpb24gT3JkZXJz",
+			"CardSubTitle": "Gowdy Warns Democrats on Obama's Immigration Orders",
+			"CardSubTitle_raw": "R293ZHkgV2FybnMgRGVtb2NyYXRzIG9uIE9iYW1hJ3MgSW1taWdyYXRpb24gT3JkZXJz",
+			"altTitle": [
+				"Twitter|Will Gowdy Bird Dog Obama?", "Facebook|Gowdy is spoiling for another round of confrontation over immigration"
+			],
+			"CardBody": "In his opening statement at a House Judiciary Committee hearing Wednesday on President Barack Obama’s immigration executive orders, Rep. Trey Gowdy again hammered the administration for ignoring the rule of law while warning Democrats of the long-term consequences of Obama’s actions.“You may benefit from the president’s failure to enforce the law today, but I’ll make you this promise: there will come a day where you will cry out for the enforcement of the law,” Gowdy said. “There will come a day where you long for the law to be the foundation of this republic. So you be careful what you do with the law today, because if you weaken it today, you weaken it forever.”Gowdy’s comments come as Congress debates fiscal 2015 funding for the Department of Homeland Security and whether to tie-in language defunding Obama’s immigration executive orders.",
+			"CardBody_raw": "PGRpdj48cD5JbiBoaXMgb3BlbmluZyBzdGF0ZW1lbnQgYXQgYSBIb3VzZSBKdWRpY2lhcnkgQ29tbWl0dGVlIGhlYXJpbmcgV2VkbmVzZGF5IG9uIFByZXNpZGVudCBCYXJhY2sgT2JhbWHigJlzIGltbWlncmF0aW9uIGV4ZWN1dGl2ZSBvcmRlcnMsIFJlcC4gVHJleSBHb3dkeSBhZ2FpbiBoYW1tZXJlZCB0aGUgYWRtaW5pc3RyYXRpb24gZm9yIGlnbm9yaW5nIHRoZSBydWxlIG9mIGxhdyB3aGlsZSB3YXJuaW5nIERlbW9jcmF0cyBvZiB0aGUgbG9uZy10ZXJtIGNvbnNlcXVlbmNlcyBvZiBPYmFtYeKAmXMgYWN0aW9ucy7igJxZb3UgbWF5IGJlbmVmaXQgZnJvbSB0aGUgcHJlc2lkZW504oCZcyBmYWlsdXJlIHRvIGVuZm9yY2UgdGhlIGxhdyB0b2RheSwgYnV0IEnigJlsbCBtYWtlIHlvdSB0aGlzIHByb21pc2U6IHRoZXJlIHdpbGwgY29tZSBhIGRheSB3aGVyZSB5b3Ugd2lsbCBjcnkgb3V0IGZvciB0aGUgZW5mb3JjZW1lbnQgb2YgdGhlIGxhdyzigJ0gR293ZHkgc2FpZC4g4oCcVGhlcmUgd2lsbCBjb21lIGEgZGF5IHdoZXJlIHlvdSBsb25nIGZvciB0aGUgbGF3IHRvIGJlIHRoZSBmb3VuZGF0aW9uIG9mIHRoaXMgcmVwdWJsaWMuIFNvIHlvdSBiZSBjYXJlZnVsIHdoYXQgeW91IGRvIHdpdGggdGhlIGxhdyB0b2RheSwgYmVjYXVzZSBpZiB5b3Ugd2Vha2VuIGl0IHRvZGF5LCB5b3Ugd2Vha2VuIGl0IGZvcmV2ZXIuPC9wPjxwPuKAnUdvd2R54oCZcyBjb21tZW50cyBjb21lIGFzIENvbmdyZXNzIGRlYmF0ZXMgZmlzY2FsIDIwMTUgZnVuZGluZyBmb3IgdGhlIERlcGFydG1lbnQgb2YgSG9tZWxhbmQgU2VjdXJpdHkgYW5kIHdoZXRoZXIgdG8gdGllLWluIGxhbmd1YWdlIGRlZnVuZGluZyBPYmFtYeKAmXMgaW1taWdyYXRpb24gZXhlY3V0aXZlIG9yZGVycy48L3A+PC9kaXY+",
+			"Contributor": "Author|Meredith Dake",
+			"VideoLocation": [
+				"http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.mp4", "http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.ogg", "http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate.webm"
+			],
+			"VideoFileName": "http://dev.rmc.fitterweb.com/videos/09.09.14_RickAllen_Candidate",
+			"SplashImageOriginal": "http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.jpg",
+			"SplashImageDerived": [
+				"http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.cropped.landscape.680w-360h.jpg", "http://dev.rmc.fitterweb.com/images/yyyy/mm/filename.cropped.portait.569w-405.jpg"
+			],
+			"CreatedDate": "2015-03-04T13:34:30Z",
+			"UpdateDate": "2015-03-05T09:34:30Z",
+			"Category": [
+				"Subject", "Topic"
+			],
+			"Tag": [
+				"Subject|Politics", "Subject|Immigration", "Topic|Republicans", "Topic|Senate"
+			]
+		}
+	},
+	"commit": {}
+}

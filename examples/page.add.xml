@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+	<doc>
+		<!-- Unique ID for the document at any state. It is a cobination of the state, the user, the datetime stamp, and the GUID-->
+		<field name="id">draft_jkeeney_homepage_2015-03-04T13:34:30Z_84eed782-ca4f-11e4-8731-1681e6b88ec1</field>
+		<!--This is the GUID for the home page. It iwll remain the same forever. If we add other page types they will have different GUIDs.-->
+		<field name="PageID">84eed782-ca4f-11e4-8731-1681e6b88ec1</field>
+		<!-- GUID Once set this will never change.  -->
+		<field name="PageType">Home Page</field>
+		<!-- note sure we are going to need this at all. Will clean up when I establish the requirements for the queries. -->
+		<field name="Active">true</field>
+		<!-- This will be blank for the home page but will be used when we allow for other pages like a primary topic page. -->
+		<field name="URLSlug"/>
+		<!-- The state for this document Possible values working | draft | review | published | possible future values | dev | test -->
+		<field name="state">working</field>
+		<field name="PriorState">draft</field>
+		<!-- Comment stores the comment made when the document is moved from state to state. A record of why an action was taken -->
+		<field name="Comment">Rm9yd2FyZGluZyB0byB5b3UgZm9yIHJldmlldw==</field>
+		<field name="Comment">Rm9yd2FyZGluZyB0byB5b3UgZm9yIHJldmlldw==</field>
+		<!--  This will be used in production for failure recovery. Records will be posted to Exist, PostDestination will = Exist. If exist is down then directly to SOLR. Exist will synch by getting all documents with PostDestination = SOLR  -->
+		<field name="PostDestination">SOLR</field>
+		<field name="CreatedBy">JMReiger</field>
+		<field name="CurrentUser">Jkeeney</field>
+		<!--  Dates  -->
+		<!--  Date that the was created. This date is specific to the state. So when the page moves from one state to another this date is set again.   -->
+		<field name="CreatedDate">2015-03-04T13:34:30Z</field>
+		<!--  Last modified date. It is blank when the page/state is first created. So if a user creates exactly what they want the first time this field may always be blank.  -->
+		<field name="UpdateDate">2015-03-05T09:34:30Z</field>
+		<!--  Publish date is the date video is first published. If this is set to the future then the content is embargoed and should not be shown. This is how we will handle delayed release. Show everything that does not have a publish date in the future. -->
+		<field name="PublishDate">2015-03-05T09:34:30Z</field>
+		<!--  Pages may have themes. This is a way for the Roll Call to tag their pages and recall them. Tags are organized in catgories. Categories have their own field so we can show them correctly and facet on them.  Users can create new categories and new tags -->
+		<field name="Category">Subject</field>
+		<field name="Category">Topic</field>
+		<!-- Tags are preceded by the category they are from.   -->
+		<field name="Tag">Subject|Politics</field>
+		<field name="Tag">Subject|Immigration</field>
+		<field name="Tag">Topic|Repulicans</field>
+		<field name="Tag">Topic|Senate</field>
+	</doc>
+</add>

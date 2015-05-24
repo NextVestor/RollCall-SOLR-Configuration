@@ -1,0 +1,1572 @@
+{
+	"add": {
+		"doc": {
+			"id": "42c5011d-50e1-4909-8a1c-9824be5bba3a",
+			"Category_str": "Topic",
+			"CQRCid": "3742",
+			"Tag": "Abortion & Contraception",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_abortion_and_contraception",
+			"Title": "Abortion & Contraception",
+			"Title_raw": "QWJvcnRpb24gJiBDb250cmFjZXB0aW9u",
+			"Query": "Tag:'Topic|Abortion & Contraception'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "9c73cae2-c813-4807-99fa-a5434acbe2e7",
+			"Category_str": "Topic",
+			"CQRCid": "3743",
+			"Tag": "Afghanistan",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_afghanistan",
+			"Title": "Afghanistan",
+			"Title_raw": "QWZnaGFuaXN0YW4=",
+			"Query": "Tag:'Topic|Afghanistan'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "fa39453c-0c2e-4c98-a365-87958d3000f6",
+			"Category_str": "Topic",
+			"CQRCid": "3744",
+			"Tag": "Agriculture Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_agriculture_appropriations_spending_budget",
+			"Title": "Agriculture Appropriations/Spending/Budget",
+			"Title_raw": "QWdyaWN1bHR1cmUgQXBwcm9wcmlhdGlvbnMvU3BlbmRpbmcvQnVkZ2V0",
+			"Query": "Tag:'Topic|Agriculture Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "fdf919e2-bd6d-4ea0-82fe-202659323f6c",
+			"Category_str": "Topic",
+			"CQRCid": "3746",
+			"Tag": "Amtrak & Passenger Rail",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_amtrak_and_passenger_rail",
+			"Title": "Amtrak & Passenger Rail",
+			"Title_raw": "QW10cmFrICYgUGFzc2VuZ2VyIFJhaWw=",
+			"Query": "Tag:'Topic|Amtrak & Passenger Rail'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "0a18ca73-2916-437b-a965-4de7997ba71f",
+			"Category_str": "Topic",
+			"CQRCid": "3748",
+			"Tag": "Aviation",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_aviation",
+			"Title": "Aviation",
+			"Title_raw": "QXZpYXRpb24=",
+			"Query": "Tag:'Topic|Aviation'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "d22d0b9e-a7cb-4858-8b3b-19f80eea5062",
+			"Category_str": "Topic",
+			"CQRCid": "3749",
+			"Tag": "Base Realignment & Closure",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_base_realignment_and_closure",
+			"Title": "Base Realignment & Closure",
+			"Title_raw": "QmFzZSBSZWFsaWdubWVudCAmIENsb3N1cmU=",
+			"Query": "Tag:'Topic|Base Realignment & Closure'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "c477f58e-724f-4d59-9721-83113611d87a",
+			"Category_str": "Topic",
+			"CQRCid": "3751",
+			"Tag": "Border Control",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_border_control",
+			"Title": "Border Control",
+			"Title_raw": "Qm9yZGVyIENvbnRyb2w=",
+			"Query": "Tag:'Topic|Border Control'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "4bf4d52c-456d-4c7b-b136-3ec3c92a9dde",
+			"Category_str": "Topic",
+			"CQRCid": "6864",
+			"Tag": "CHIP Children's Health Insurance Program",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_chip_children_s_health_insurance_program",
+			"Title": "CHIP Children's Health Insurance Program",
+			"Title_raw": "Q0hJUCBDaGlsZHJlbidzIEhlYWx0aCBJbnN1cmFuY2UgUHJvZ3JhbQ==",
+			"Query": "Tag:'Topic|CHIP Children's Health Insurance Program'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "58837531-5ece-4156-a627-27941e96e914",
+			"Category_str": "Topic",
+			"CQRCid": "3755",
+			"Tag": "Coal",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_coal",
+			"Title": "Coal",
+			"Title_raw": "Q29hbA==",
+			"Query": "Tag:'Topic|Coal'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "9b971c58-1c13-423b-8f8d-a45174157dbf",
+			"Category_str": "Topic",
+			"CQRCid": "3756",
+			"Tag": "Commerce-Justice-Science Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_commerce-justice-science_appropriations_spending_budget",
+			"Title": "Commerce-Justice-Science Appropriations/Spending/Budget",
+			"Title_raw": "Q29tbWVyY2UtSnVzdGljZS1TY2llbmNlIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|Commerce-Justice-Science Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a1476507-6340-4415-8bd2-c1382830e035",
+			"Category_str": "Topic",
+			"CQRCid": "6862",
+			"Tag": "Common Core",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_common_core",
+			"Title": "Common Core",
+			"Title_raw": "Q29tbW9uIENvcmU=",
+			"Query": "Tag:'Topic|Common Core'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "decc4f48-7888-4dec-830f-fc188ca7fa6b",
+			"Category_str": "Topic",
+			"CQRCid": "5862",
+			"Tag": "Continuing Resolution",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_continuing_resolution",
+			"Title": "Continuing Resolution",
+			"Title_raw": "Q29udGludWluZyBSZXNvbHV0aW9u",
+			"Query": "Tag:'Topic|Continuing Resolution'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "f8434432-bb3e-4796-9969-b51470dfdf6e",
+			"Category_str": "Topic",
+			"CQRCid": "3757",
+			"Tag": "Cybersecurity",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_cybersecurity",
+			"Title": "Cybersecurity",
+			"Title_raw": "Q3liZXJzZWN1cml0eQ==",
+			"Query": "Tag:'Topic|Cybersecurity'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "0d6322a4-a130-4b6a-be4d-f2f1312f6d02",
+			"Category_str": "Topic",
+			"CQRCid": "3758",
+			"Tag": "Defense Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_defense_appropriations_spending_budget",
+			"Title": "Defense Appropriations/Spending/Budget",
+			"Title_raw": "RGVmZW5zZSBBcHByb3ByaWF0aW9ucy9TcGVuZGluZy9CdWRnZXQ=",
+			"Query": "Tag:'Topic|Defense Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "75efffc9-bdda-427f-8a1b-cd6abdd896da",
+			"Category_str": "Topic",
+			"CQRCid": "3760",
+			"Tag": "Deficit & Debt Limit",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_deficit_and_debt_limit",
+			"Title": "Deficit & Debt Limit",
+			"Title_raw": "RGVmaWNpdCAmIERlYnQgTGltaXQ=",
+			"Query": "Tag:'Topic|Deficit & Debt Limit'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "e66a7b4a-bcb1-4c5b-90e2-0eca6f7e9425",
+			"Category_str": "Topic",
+			"CQRCid": "3763",
+			"Tag": "Doc Fix",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_doc_fix",
+			"Title": "Doc Fix",
+			"Title_raw": "RG9jIEZpeA==",
+			"Query": "Tag:'Topic|Doc Fix'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "da28b681-6b72-4519-a8f0-9b93ceb69a3f",
+			"Category_str": "Topic",
+			"CQRCid": "3863",
+			"Tag": "Drones",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_drones",
+			"Title": "Drones",
+			"Title_raw": "RHJvbmVz",
+			"Query": "Tag:'Topic|Drones'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "f8ad8017-45b7-4752-8d9f-2dfc580c29dd",
+			"Category_str": "Topic",
+			"CQRCid": "3865",
+			"Tag": "EPA",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_epa",
+			"Title": "EPA",
+			"Title_raw": "RVBB",
+			"Query": "Tag:'Topic|EPA'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "29e2b599-e410-4900-a4c1-7a552e15006f",
+			"Category_str": "Topic",
+			"CQRCid": "3741",
+			"Tag": "Education K-12",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_education_k-12",
+			"Title": "Education K-12",
+			"Title_raw": "RWR1Y2F0aW9uIEstMTI=",
+			"Query": "Tag:'Topic|Education K-12'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "47122b94-9471-4ad6-92f4-1b5cc23c12ba",
+			"Category_str": "Topic",
+			"CQRCid": "3762",
+			"Tag": "Emergency Management",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_emergency_management",
+			"Title": "Emergency Management",
+			"Title_raw": "RW1lcmdlbmN5IE1hbmFnZW1lbnQ=",
+			"Query": "Tag:'Topic|Emergency Management'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "324f3d23-3c62-487a-9807-c8b696e21d98",
+			"Category_str": "Topic",
+			"CQRCid": "3864",
+			"Tag": "Energy Regulation",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_energy_regulation",
+			"Title": "Energy Regulation",
+			"Title_raw": "RW5lcmd5IFJlZ3VsYXRpb24=",
+			"Query": "Tag:'Topic|Energy Regulation'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "bebc5b23-6936-4110-85c3-965ee2d510b5",
+			"Category_str": "Topic",
+			"CQRCid": "3770",
+			"Tag": "Energy-Water Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_energy-water_appropriations_spending_budget",
+			"Title": "Energy-Water Appropriations/Spending/Budget",
+			"Title_raw": "RW5lcmd5LVdhdGVyIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|Energy-Water Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a47f6bb8-2daa-41b3-956b-f63eb7c05f64",
+			"Category_str": "Topic",
+			"CQRCid": "3773",
+			"Tag": "FDA",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_fda",
+			"Title": "FDA",
+			"Title_raw": "RkRB",
+			"Query": "Tag:'Topic|FDA'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "d078ed14-c234-4132-85f7-8776912a6d5f",
+			"Category_str": "Topic",
+			"CQRCid": "3772",
+			"Tag": "Farm Bill",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_farm_bill",
+			"Title": "Farm Bill",
+			"Title_raw": "RmFybSBCaWxs",
+			"Query": "Tag:'Topic|Farm Bill'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "0aaa0cca-d079-4cb5-9f83-44ad6ce971bd",
+			"Category_str": "Topic",
+			"CQRCid": "3752",
+			"Tag": "Federal Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_federal_budget",
+			"Title": "Federal Budget",
+			"Title_raw": "RmVkZXJhbCBCdWRnZXQ=",
+			"Query": "Tag:'Topic|Federal Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "3da30b20-0daf-4e71-b7c6-0ab0ca7f9320",
+			"Category_str": "Topic",
+			"CQRCid": "6863",
+			"Tag": "Filibuster",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_filibuster",
+			"Title": "Filibuster",
+			"Title_raw": "RmlsaWJ1c3Rlcg==",
+			"Query": "Tag:'Topic|Filibuster'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "9ee16139-4b9c-4b1b-8a10-d6c7fc75f3a1",
+			"Category_str": "Topic",
+			"CQRCid": "3761",
+			"Tag": "Financial Regulation",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_financial_regulation",
+			"Title": "Financial Regulation",
+			"Title_raw": "RmluYW5jaWFsIFJlZ3VsYXRpb24=",
+			"Query": "Tag:'Topic|Financial Regulation'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "c81fd846-603d-4f47-891d-ba784ee8a1db",
+			"Category_str": "Topic",
+			"CQRCid": "3774",
+			"Tag": "Financial Services Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_financial_services_appropriations_spending_budget",
+			"Title": "Financial Services Appropriations/Spending/Budget",
+			"Title_raw": "RmluYW5jaWFsIFNlcnZpY2VzIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|Financial Services Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "7aab3126-f30b-43a7-bcd6-b2b51f4563b9",
+			"Category_str": "Topic",
+			"CQRCid": "3776",
+			"Tag": "Food Safety",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_food_safety",
+			"Title": "Food Safety",
+			"Title_raw": "Rm9vZCBTYWZldHk=",
+			"Query": "Tag:'Topic|Food Safety'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "db471031-57d8-47f2-9db4-14457e89a710",
+			"Category_str": "Topic",
+			"CQRCid": "3866",
+			"Tag": "Government-Sponsored Enterprises",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_government-sponsored_enterprises",
+			"Title": "Government-Sponsored Enterprises",
+			"Title_raw": "R292ZXJubWVudC1TcG9uc29yZWQgRW50ZXJwcmlzZXM=",
+			"Query": "Tag:'Topic|Government-Sponsored Enterprises'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "efc9792b-3c41-47a1-a44e-18f136030c2c",
+			"Category_str": "Topic",
+			"CQRCid": "5402",
+			"Tag": "Health Care Law",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_health_care_law",
+			"Title": "Health Care Law",
+			"Title_raw": "SGVhbHRoIENhcmUgTGF3",
+			"Query": "Tag:'Topic|Health Care Law'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "6e157c74-0e5b-4066-b460-09ac7e7c5053",
+			"Category_str": "Topic",
+			"CQRCid": "3779",
+			"Tag": "Higher Education Act Reauthorization",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_higher_education_act_reauthorization",
+			"Title": "Higher Education Act Reauthorization",
+			"Title_raw": "SGlnaGVyIEVkdWNhdGlvbiBBY3QgUmVhdXRob3JpemF0aW9u",
+			"Query": "Tag:'Topic|Higher Education Act Reauthorization'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "2c68bb64-c8a2-401f-ac85-9d0c0fd952fa",
+			"Category_str": "Topic",
+			"CQRCid": "3780",
+			"Tag": "Highway Bill",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_highway_bill",
+			"Title": "Highway Bill",
+			"Title_raw": "SGlnaHdheSBCaWxs",
+			"Query": "Tag:'Topic|Highway Bill'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "f9140cb8-5ca0-4c9a-aaf8-4bb2b102dbe6",
+			"Category_str": "Topic",
+			"CQRCid": "3782",
+			"Tag": "Homeland Security Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_homeland_security_appropriations_spending_budget",
+			"Title": "Homeland Security Appropriations/Spending/Budget",
+			"Title_raw": "SG9tZWxhbmQgU2VjdXJpdHkgQXBwcm9wcmlhdGlvbnMvU3BlbmRpbmcvQnVkZ2V0",
+			"Query": "Tag:'Topic|Homeland Security Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "98d773c0-6efd-4bc7-bb94-cf014a4c93ec",
+			"Category_str": "Topic",
+			"CQRCid": "3784",
+			"Tag": "Immigration",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_immigration",
+			"Title": "Immigration",
+			"Title_raw": "SW1taWdyYXRpb24=",
+			"Query": "Tag:'Topic|Immigration'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "e8afbbfe-e700-47fe-b067-cc96b118fdf9",
+			"Category_str": "Topic",
+			"CQRCid": "3785",
+			"Tag": "Intelligence Authorization",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_intelligence_authorization",
+			"Title": "Intelligence Authorization",
+			"Title_raw": "SW50ZWxsaWdlbmNlIEF1dGhvcml6YXRpb24=",
+			"Query": "Tag:'Topic|Intelligence Authorization'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "bc7513c6-11b0-43bd-8832-b14ef4d72568",
+			"Category_str": "Topic",
+			"CQRCid": "3786",
+			"Tag": "Interior-Environment Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_interior-environment_appropriations_spending_budget",
+			"Title": "Interior-Environment Appropriations/Spending/Budget",
+			"Title_raw": "SW50ZXJpb3ItRW52aXJvbm1lbnQgQXBwcm9wcmlhdGlvbnMvU3BlbmRpbmcvQnVkZ2V0",
+			"Query": "Tag:'Topic|Interior-Environment Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "30c3c394-a56b-4fd4-9748-f985b821360d",
+			"Category_str": "Topic",
+			"CQRCid": "3787",
+			"Tag": "Iran",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_iran",
+			"Title": "Iran",
+			"Title_raw": "SXJhbg==",
+			"Query": "Tag:'Topic|Iran'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "e55c865b-5a5e-454b-bb3e-93ee8ed4693d",
+			"Category_str": "Topic",
+			"CQRCid": "5401",
+			"Tag": "Iraq",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_iraq",
+			"Title": "Iraq",
+			"Title_raw": "SXJhcQ==",
+			"Query": "Tag:'Topic|Iraq'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a7ed5a5a-a3c2-4bae-8b03-092a5e5fe126",
+			"Category_str": "Topic",
+			"CQRCid": "6821",
+			"Tag": "Keystone XL Pipeline",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_keystone_xl_pipeline",
+			"Title": "Keystone XL Pipeline",
+			"Title_raw": "S2V5c3RvbmUgWEwgUGlwZWxpbmU=",
+			"Query": "Tag:'Topic|Keystone XL Pipeline'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "018f3ad0-c41c-4951-a9fc-61a8bff71e60",
+			"Category_str": "Topic",
+			"CQRCid": "3790",
+			"Tag": "Labor-HHS-Education Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_labor-hhs-education_appropriations_spending_budget",
+			"Title": "Labor-HHS-Education Appropriations/Spending/Budget",
+			"Title_raw": "TGFib3ItSEhTLUVkdWNhdGlvbiBBcHByb3ByaWF0aW9ucy9TcGVuZGluZy9CdWRnZXQ=",
+			"Query": "Tag:'Topic|Labor-HHS-Education Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a5ed510a-7c2a-4325-846c-bdfac8b4701d",
+			"Category_str": "Topic",
+			"CQRCid": "3791",
+			"Tag": "Legislative Branch Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_legislative_branch_appropriations_spending_budget",
+			"Title": "Legislative Branch Appropriations/Spending/Budget",
+			"Title_raw": "TGVnaXNsYXRpdmUgQnJhbmNoIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|Legislative Branch Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "ef21fcff-fbd9-4637-ad07-ed6793bc6728",
+			"Category_str": "Topic",
+			"CQRCid": "3867",
+			"Tag": "Marijuana",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_marijuana",
+			"Title": "Marijuana",
+			"Title_raw": "TWFyaWp1YW5h",
+			"Query": "Tag:'Topic|Marijuana'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "dbc3e59e-4998-4c87-853e-41f2b5e107fe",
+			"Category_str": "Topic",
+			"CQRCid": "3793",
+			"Tag": "Medicaid",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_medicaid",
+			"Title": "Medicaid",
+			"Title_raw": "TWVkaWNhaWQ=",
+			"Query": "Tag:'Topic|Medicaid'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "9662a91e-e205-474b-9e9f-e1a112b5911b",
+			"Category_str": "Topic",
+			"CQRCid": "3795",
+			"Tag": "Medicare",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_medicare",
+			"Title": "Medicare",
+			"Title_raw": "TWVkaWNhcmU=",
+			"Query": "Tag:'Topic|Medicare'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "8cc59bb1-5610-49d1-bbce-819df5a5b750",
+			"Category_str": "Topic",
+			"CQRCid": "3796",
+			"Tag": "Mental Health",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_mental_health",
+			"Title": "Mental Health",
+			"Title_raw": "TWVudGFsIEhlYWx0aA==",
+			"Query": "Tag:'Topic|Mental Health'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "e3e27a82-38cb-48d4-ae21-ce76d4995914",
+			"Category_str": "Topic",
+			"CQRCid": "3798",
+			"Tag": "Military Construction-VA Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_military_construction-va_appropriations_spending_budget",
+			"Title": "Military Construction-VA Appropriations/Spending/Budget",
+			"Title_raw": "TWlsaXRhcnkgQ29uc3RydWN0aW9uLVZBIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|Military Construction-VA Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "3f7b69c6-941e-4095-a9e7-72caffd8774e",
+			"Category_str": "Topic",
+			"CQRCid": "3800",
+			"Tag": "Minimum Wage",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_minimum_wage",
+			"Title": "Minimum Wage",
+			"Title_raw": "TWluaW11bSBXYWdl",
+			"Query": "Tag:'Topic|Minimum Wage'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a21b9d94-5f2b-4a60-b876-8b9de993c101",
+			"Category_str": "Topic",
+			"CQRCid": "3804",
+			"Tag": "NSA",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_nsa",
+			"Title": "NSA",
+			"Title_raw": "TlNB",
+			"Query": "Tag:'Topic|NSA'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "d3724316-a996-47d9-9d06-1a3da00a66f6",
+			"Category_str": "Topic",
+			"CQRCid": "6865",
+			"Tag": "National Institutes of Health",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_national_institutes_of_health",
+			"Title": "National Institutes of Health",
+			"Title_raw": "TmF0aW9uYWwgSW5zdGl0dXRlcyBvZiBIZWFsdGg=",
+			"Query": "Tag:'Topic|National Institutes of Health'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "df913fc7-0c8f-480d-a043-6563414e00d2",
+			"Category_str": "Topic",
+			"CQRCid": "3805",
+			"Tag": "Nuclear Energy",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_nuclear_energy",
+			"Title": "Nuclear Energy",
+			"Title_raw": "TnVjbGVhciBFbmVyZ3k=",
+			"Query": "Tag:'Topic|Nuclear Energy'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "973caefb-8fb9-4d7d-bbf2-4ba131b68fa4",
+			"Category_str": "Topic",
+			"CQRCid": "3806",
+			"Tag": "Nuclear Weapons",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_nuclear_weapons",
+			"Title": "Nuclear Weapons",
+			"Title_raw": "TnVjbGVhciBXZWFwb25z",
+			"Query": "Tag:'Topic|Nuclear Weapons'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "e7126ee0-cd31-4d9d-b0f7-0a00c84986ed",
+			"Category_str": "Topic",
+			"CQRCid": "3809",
+			"Tag": "Oil & Natural Gas",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_oil_and_natural_gas",
+			"Title": "Oil & Natural Gas",
+			"Title_raw": "T2lsICYgTmF0dXJhbCBHYXM=",
+			"Query": "Tag:'Topic|Oil & Natural Gas'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "610fad27-2eda-4ae2-8e37-fbee31807347",
+			"Category_str": "Topic",
+			"CQRCid": "3810",
+			"Tag": "Online Sales Taxes",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_online_sales_taxes",
+			"Title": "Online Sales Taxes",
+			"Title_raw": "T25saW5lIFNhbGVzIFRheGVz",
+			"Query": "Tag:'Topic|Online Sales Taxes'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "1999a625-1369-4fcc-9759-201f038c06cc",
+			"Category_str": "Topic",
+			"CQRCid": "3812",
+			"Tag": "Patents",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_patents",
+			"Title": "Patents",
+			"Title_raw": "UGF0ZW50cw==",
+			"Query": "Tag:'Topic|Patents'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "aea568e0-3b6b-460f-ab27-1f7257ac8865",
+			"Category_str": "Topic",
+			"CQRCid": "6121",
+			"Tag": "Postal Service",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_postal_service",
+			"Title": "Postal Service",
+			"Title_raw": "UG9zdGFsIFNlcnZpY2U=",
+			"Query": "Tag:'Topic|Postal Service'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "fc91ea90-61fd-4802-862f-bd0e0b33ffda",
+			"Category_str": "Topic",
+			"CQRCid": "3816",
+			"Tag": "Prison Sentencing",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_prison_sentencing",
+			"Title": "Prison Sentencing",
+			"Title_raw": "UHJpc29uIFNlbnRlbmNpbmc=",
+			"Query": "Tag:'Topic|Prison Sentencing'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "3c529e43-c766-4d8f-b846-059d97471a03",
+			"Category_str": "Topic",
+			"CQRCid": "3818",
+			"Tag": "Public Transit",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_public_transit",
+			"Title": "Public Transit",
+			"Title_raw": "UHVibGljIFRyYW5zaXQ=",
+			"Query": "Tag:'Topic|Public Transit'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a73d2cb6-18c6-47ea-ab08-83019079e60d",
+			"Category_str": "Topic",
+			"CQRCid": "6867",
+			"Tag": "Russia",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_russia",
+			"Title": "Russia",
+			"Title_raw": "UnVzc2lh",
+			"Query": "Tag:'Topic|Russia'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "66658c02-29a1-409a-8a9c-7d0730fcf1d2",
+			"Category_str": "Topic",
+			"CQRCid": "3882",
+			"Tag": "SNAP Supplemental Nutrition Assistance Program",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_snap_supplemental_nutrition_assistance_program",
+			"Title": "SNAP Supplemental Nutrition Assistance Program",
+			"Title_raw": "U05BUCBTdXBwbGVtZW50YWwgTnV0cml0aW9uIEFzc2lzdGFuY2UgUHJvZ3JhbQ==",
+			"Query": "Tag:'Topic|SNAP Supplemental Nutrition Assistance Program'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "3416b8ce-401a-45c1-bf8d-b9b8e31e58be",
+			"Category_str": "Topic",
+			"CQRCid": "3821",
+			"Tag": "Same-Sex Marriage",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_same-sex_marriage",
+			"Title": "Same-Sex Marriage",
+			"Title_raw": "U2FtZS1TZXggTWFycmlhZ2U=",
+			"Query": "Tag:'Topic|Same-Sex Marriage'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "84c89ef1-8638-47f4-bc73-a66541ddc537",
+			"Category_str": "Topic",
+			"CQRCid": "3822",
+			"Tag": "Sequester",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_sequester",
+			"Title": "Sequester",
+			"Title_raw": "U2VxdWVzdGVy",
+			"Query": "Tag:'Topic|Sequester'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "accc1a6d-8600-484b-ae81-b078e281bd93",
+			"Category_str": "Topic",
+			"CQRCid": "3823",
+			"Tag": "Social Security",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_social_security",
+			"Title": "Social Security",
+			"Title_raw": "U29jaWFsIFNlY3VyaXR5",
+			"Query": "Tag:'Topic|Social Security'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "11a8fadf-4f59-4686-bc0c-a43b32300f4c",
+			"Category_str": "Topic",
+			"CQRCid": "3825",
+			"Tag": "State-Foreign Operations Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_state-foreign_operations_appropriations_spending_budget",
+			"Title": "State-Foreign Operations Appropriations/Spending/Budget",
+			"Title_raw": "U3RhdGUtRm9yZWlnbiBPcGVyYXRpb25zIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|State-Foreign Operations Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "d76aa187-7ed2-47f0-990b-34807bc99d07",
+			"Category_str": "Topic",
+			"CQRCid": "3826",
+			"Tag": "Student Loans",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_student_loans",
+			"Title": "Student Loans",
+			"Title_raw": "U3R1ZGVudCBMb2Fucw==",
+			"Query": "Tag:'Topic|Student Loans'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "121a3371-7dd7-43f9-8013-5053df72811a",
+			"Category_str": "Topic",
+			"CQRCid": "3828",
+			"Tag": "Syria",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_syria",
+			"Title": "Syria",
+			"Title_raw": "U3lyaWE=",
+			"Query": "Tag:'Topic|Syria'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "3d5cc6d8-6067-4de9-a9d5-e792b0577aab",
+			"Category_str": "Topic",
+			"CQRCid": "3829",
+			"Tag": "Tax Law",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_tax_law",
+			"Title": "Tax Law",
+			"Title_raw": "VGF4IExhdw==",
+			"Query": "Tag:'Topic|Tax Law'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a076c2cb-6791-4dbb-ad59-f31688996afe",
+			"Category_str": "Topic",
+			"CQRCid": "6866",
+			"Tag": "Tobacco Regulation",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_tobacco_regulation",
+			"Title": "Tobacco Regulation",
+			"Title_raw": "VG9iYWNjbyBSZWd1bGF0aW9u",
+			"Query": "Tag:'Topic|Tobacco Regulation'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "7a2a8198-5829-43bc-9099-03147c6b71d4",
+			"Category_str": "Topic",
+			"CQRCid": "6868",
+			"Tag": "Trade Policy",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_trade_policy",
+			"Title": "Trade Policy",
+			"Title_raw": "VHJhZGUgUG9saWN5",
+			"Query": "Tag:'Topic|Trade Policy'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "b089381e-5eb3-4519-aec0-d6316e3225bd",
+			"Category_str": "Topic",
+			"CQRCid": "3831",
+			"Tag": "Transportation Safety",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_transportation_safety",
+			"Title": "Transportation Safety",
+			"Title_raw": "VHJhbnNwb3J0YXRpb24gU2FmZXR5",
+			"Query": "Tag:'Topic|Transportation Safety'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "e751c36a-72f5-4e51-91f9-b1ba0884a6ed",
+			"Category_str": "Topic",
+			"CQRCid": "3832",
+			"Tag": "Transportation-HUD Appropriations/Spending/Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_transportation-hud_appropriations_spending_budget",
+			"Title": "Transportation-HUD Appropriations/Spending/Budget",
+			"Title_raw": "VHJhbnNwb3J0YXRpb24tSFVEIEFwcHJvcHJpYXRpb25zL1NwZW5kaW5nL0J1ZGdldA==",
+			"Query": "Tag:'Topic|Transportation-HUD Appropriations/Spending/Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "5cd27073-11f2-404c-9190-b787782ecf9c",
+			"Category_str": "Topic",
+			"CQRCid": "3797",
+			"Tag": "VA Health Care",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_va_health_care",
+			"Title": "VA Health Care",
+			"Title_raw": "VkEgSGVhbHRoIENhcmU=",
+			"Query": "Tag:'Topic|VA Health Care'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a8d4ae0e-ee12-4ad7-a4e5-3467c2c420e1",
+			"Category_str": "Topic",
+			"CQRCid": "3835",
+			"Tag": "Voting Rights",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_voting_rights",
+			"Title": "Voting Rights",
+			"Title_raw": "Vm90aW5nIFJpZ2h0cw==",
+			"Query": "Tag:'Topic|Voting Rights'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "50d2e83f-e7bc-44f7-bb07-b5ef353b080e",
+			"Category_str": "Topic",
+			"CQRCid": "3881",
+			"Tag": "War Spending",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "topic_war_spending",
+			"Title": "War Spending",
+			"Title_raw": "V2FyIFNwZW5kaW5n",
+			"Query": "Tag:'Topic|War Spending'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "355c78c2-0ae7-4643-853c-83a76164b7db",
+			"Category_str": "Subject",
+			"CQRCid": "50",
+			"Tag": "Agriculture",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_agriculture",
+			"Title": "Agriculture",
+			"Title_raw": "QWdyaWN1bHR1cmU=",
+			"Query": "Tag:'Subject|Agriculture'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "10669953-618d-4008-bceb-0f2a8563c62d",
+			"Category_str": "Subject",
+			"CQRCid": "51",
+			"Tag": "Appropriations",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_appropriations",
+			"Title": "Appropriations",
+			"Title_raw": "QXBwcm9wcmlhdGlvbnM=",
+			"Query": "Tag:'Subject|Appropriations'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "023bac88-9a04-43fa-ba3b-52ee8603192f",
+			"Category_str": "Subject",
+			"CQRCid": "53",
+			"Tag": "Budget",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_budget",
+			"Title": "Budget",
+			"Title_raw": "QnVkZ2V0",
+			"Query": "Tag:'Subject|Budget'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "92e3c04c-ffab-41d6-9ed3-19047a221f92",
+			"Category_str": "Subject",
+			"CQRCid": "55",
+			"Tag": "Congressional Affairs",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_congressional_affairs",
+			"Title": "Congressional Affairs",
+			"Title_raw": "Q29uZ3Jlc3Npb25hbCBBZmZhaXJz",
+			"Query": "Tag:'Subject|Congressional Affairs'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "9e820c9d-32e2-4843-90ac-cea5118f81ab",
+			"Category_str": "Subject",
+			"CQRCid": "56",
+			"Tag": "Defense",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_defense",
+			"Title": "Defense",
+			"Title_raw": "RGVmZW5zZQ==",
+			"Query": "Tag:'Subject|Defense'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "32f927e8-c75c-4659-8eb4-eaa6846a5bba",
+			"Category_str": "Subject",
+			"CQRCid": "57",
+			"Tag": "Economy",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_economy",
+			"Title": "Economy",
+			"Title_raw": "RWNvbm9teQ==",
+			"Query": "Tag:'Subject|Economy'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a0050993-d2c3-4e67-b315-bfe1882a909c",
+			"Category_str": "Subject",
+			"CQRCid": "58",
+			"Tag": "Education",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_education",
+			"Title": "Education",
+			"Title_raw": "RWR1Y2F0aW9u",
+			"Query": "Tag:'Subject|Education'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "b0f1fd0f-7862-4fa4-aea9-759687694a0f",
+			"Category_str": "Subject",
+			"CQRCid": "59",
+			"Tag": "Employment & Labor",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_employment_and_labor",
+			"Title": "Employment & Labor",
+			"Title_raw": "RW1wbG95bWVudCAmIExhYm9y",
+			"Query": "Tag:'Subject|Employment & Labor'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "5c947f50-3416-4750-8e5c-ef55e624e607",
+			"Category_str": "Subject",
+			"CQRCid": "60",
+			"Tag": "Energy",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_energy",
+			"Title": "Energy",
+			"Title_raw": "RW5lcmd5",
+			"Query": "Tag:'Subject|Energy'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "7142fa9b-6777-4657-b69d-a9f65760114d",
+			"Category_str": "Subject",
+			"CQRCid": "61",
+			"Tag": "Environment",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_environment",
+			"Title": "Environment",
+			"Title_raw": "RW52aXJvbm1lbnQ=",
+			"Query": "Tag:'Subject|Environment'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "0a4c58e9-df19-4cbf-b4ba-0cd45fa9d72a",
+			"Category_str": "Subject",
+			"CQRCid": "62",
+			"Tag": "Executive Branch",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_executive_branch",
+			"Title": "Executive Branch",
+			"Title_raw": "RXhlY3V0aXZlIEJyYW5jaA==",
+			"Query": "Tag:'Subject|Executive Branch'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "af526e16-8648-4e80-850f-2b80086c2168",
+			"Category_str": "Subject",
+			"CQRCid": "63",
+			"Tag": "Government Operations",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_government_operations",
+			"Title": "Government Operations",
+			"Title_raw": "R292ZXJubWVudCBPcGVyYXRpb25z",
+			"Query": "Tag:'Subject|Government Operations'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "53e89370-aa98-435b-9151-41fa86a2b792",
+			"Category_str": "Subject",
+			"CQRCid": "64",
+			"Tag": "Health",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_health",
+			"Title": "Health",
+			"Title_raw": "SGVhbHRo",
+			"Query": "Tag:'Subject|Health'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "62dbfb36-6b9e-40d6-b788-6306e2301e33",
+			"Category_str": "Subject",
+			"CQRCid": "65",
+			"Tag": "American Indians",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_american_indians",
+			"Title": "American Indians",
+			"Title_raw": "QW1lcmljYW4gSW5kaWFucw==",
+			"Query": "Tag:'Subject|American Indians'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "26ee634f-9870-402f-96fe-9fd02f0b4021",
+			"Category_str": "Subject",
+			"CQRCid": "69",
+			"Tag": "Elections",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_elections",
+			"Title": "Elections",
+			"Title_raw": "RWxlY3Rpb25z",
+			"Query": "Tag:'Subject|Elections'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "b7f321e4-e01e-4a88-b58e-5636787b0394",
+			"Category_str": "Subject",
+			"CQRCid": "70",
+			"Tag": "Science",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_science",
+			"Title": "Science",
+			"Title_raw": "U2NpZW5jZQ==",
+			"Query": "Tag:'Subject|Science'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "44d77a13-a3f5-4c15-b4a3-9e012f492a02",
+			"Category_str": "Subject",
+			"CQRCid": "72",
+			"Tag": "Taxes",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_taxes",
+			"Title": "Taxes",
+			"Title_raw": "VGF4ZXM=",
+			"Query": "Tag:'Subject|Taxes'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "98aa0a43-4c23-4584-a050-27354f678962",
+			"Category_str": "Subject",
+			"CQRCid": "74",
+			"Tag": "Trade",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_trade",
+			"Title": "Trade",
+			"Title_raw": "VHJhZGU=",
+			"Query": "Tag:'Subject|Trade'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "71283dab-9081-4fba-86e0-d52a81f95879",
+			"Category_str": "Subject",
+			"CQRCid": "75",
+			"Tag": "Transportation & Infrastructure",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_transportation_and_infrastructure",
+			"Title": "Transportation & Infrastructure",
+			"Title_raw": "VHJhbnNwb3J0YXRpb24gJiBJbmZyYXN0cnVjdHVyZQ==",
+			"Query": "Tag:'Subject|Transportation & Infrastructure'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "dd1a250b-6665-478e-8bed-f62be5dec4b9",
+			"Category_str": "Subject",
+			"CQRCid": "76",
+			"Tag": "Veterans",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_veterans",
+			"Title": "Veterans",
+			"Title_raw": "VmV0ZXJhbnM=",
+			"Query": "Tag:'Subject|Veterans'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "08a64ae7-1108-4f52-b681-50b16d800c84",
+			"Category_str": "Subject",
+			"CQRCid": "77",
+			"Tag": "Abortion",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_abortion",
+			"Title": "Abortion",
+			"Title_raw": "QWJvcnRpb24=",
+			"Query": "Tag:'Subject|Abortion'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "f5e7fa3e-1465-49dd-8a75-00ff8a16ba70",
+			"Category_str": "Subject",
+			"CQRCid": "78",
+			"Tag": "Homeland Security",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_homeland_security",
+			"Title": "Homeland Security",
+			"Title_raw": "SG9tZWxhbmQgU2VjdXJpdHk=",
+			"Query": "Tag:'Subject|Homeland Security'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "3b272c9e-c8dd-42e4-bbc5-bd2f93be066f",
+			"Category_str": "Subject",
+			"CQRCid": "79",
+			"Tag": "Immigration",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_immigration",
+			"Title": "Immigration",
+			"Title_raw": "SW1taWdyYXRpb24=",
+			"Query": "Tag:'Subject|Immigration'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "b5a2c42e-e037-408a-8b2f-8224486ea481",
+			"Category_str": "Subject",
+			"CQRCid": "80",
+			"Tag": "Intelligence",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_intelligence",
+			"Title": "Intelligence",
+			"Title_raw": "SW50ZWxsaWdlbmNl",
+			"Query": "Tag:'Subject|Intelligence'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "1ad767c7-aa51-431d-a585-689a13fc2d02",
+			"Category_str": "Subject",
+			"CQRCid": "81",
+			"Tag": "Pensions & Retirement",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_pensions_and_retirement",
+			"Title": "Pensions & Retirement",
+			"Title_raw": "UGVuc2lvbnMgJiBSZXRpcmVtZW50",
+			"Query": "Tag:'Subject|Pensions & Retirement'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "1e12491f-f9cd-4f0f-90d6-9de0115ea35f",
+			"Category_str": "Subject",
+			"CQRCid": "82",
+			"Tag": "Regulatory Policy",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_regulatory_policy",
+			"Title": "Regulatory Policy",
+			"Title_raw": "UmVndWxhdG9yeSBQb2xpY3k=",
+			"Query": "Tag:'Subject|Regulatory Policy'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "878ed70a-68ee-4247-89c3-b0b884ea7ab4",
+			"Category_str": "Subject",
+			"CQRCid": "83",
+			"Tag": "Welfare & Housing",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_welfare_and_housing",
+			"Title": "Welfare & Housing",
+			"Title_raw": "V2VsZmFyZSAmIEhvdXNpbmc=",
+			"Query": "Tag:'Subject|Welfare & Housing'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a93f6fab-f2e6-4740-bfe3-0c163fdbdc75",
+			"Category_str": "Subject",
+			"CQRCid": "84",
+			"Tag": "Technology & Communications",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_technology_and_communications",
+			"Title": "Technology & Communications",
+			"Title_raw": "VGVjaG5vbG9neSAmIENvbW11bmljYXRpb25z",
+			"Query": "Tag:'Subject|Technology & Communications'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "12fb8f7a-a8e6-4957-bf32-cbc656d2cb3d",
+			"Category_str": "Subject",
+			"CQRCid": "85",
+			"Tag": "Financial Services",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_financial_services",
+			"Title": "Financial Services",
+			"Title_raw": "RmluYW5jaWFsIFNlcnZpY2Vz",
+			"Query": "Tag:'Subject|Financial Services'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "d2d102ae-9586-4672-8a73-7e650d161f8b",
+			"Category_str": "Subject",
+			"CQRCid": "86",
+			"Tag": "Foreign Policy",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_foreign_policy",
+			"Title": "Foreign Policy",
+			"Title_raw": "Rm9yZWlnbiBQb2xpY3k=",
+			"Query": "Tag:'Subject|Foreign Policy'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "8e2432a9-eeae-4ed1-aec4-9edc5f4c0a49",
+			"Category_str": "Subject",
+			"CQRCid": "87",
+			"Tag": "Legal Affairs",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_legal_affairs",
+			"Title": "Legal Affairs",
+			"Title_raw": "TGVnYWwgQWZmYWlycw==",
+			"Query": "Tag:'Subject|Legal Affairs'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "0f45c1c2-1fd7-4d1d-abe7-058c39f24671",
+			"Category_str": "Subject",
+			"CQRCid": "93",
+			"Tag": "Campaign Finance",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_campaign_finance",
+			"Title": "Campaign Finance",
+			"Title_raw": "Q2FtcGFpZ24gRmluYW5jZQ==",
+			"Query": "Tag:'Subject|Campaign Finance'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "a88940fe-e7ff-4911-96d4-82d51b95a1dd",
+			"Category_str": "Subject",
+			"CQRCid": "94",
+			"Tag": "Lobbying",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_lobbying",
+			"Title": "Lobbying",
+			"Title_raw": "TG9iYnlpbmc=",
+			"Query": "Tag:'Subject|Lobbying'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "c77ab6f3-04d5-4149-9101-6c21706cde14",
+			"Category_str": "Subject",
+			"CQRCid": "95",
+			"Tag": "Ethics",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_ethics",
+			"Title": "Ethics",
+			"Title_raw": "RXRoaWNz",
+			"Query": "Tag:'Subject|Ethics'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "b8c4d481-7aea-4536-ac0a-b706d71bba0d",
+			"Category_str": "Subject",
+			"CQRCid": "96",
+			"Tag": "Business",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_business",
+			"Title": "Business",
+			"Title_raw": "QnVzaW5lc3M=",
+			"Query": "Tag:'Subject|Business'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "385b76e5-09ff-476c-abf7-356c7030951f",
+			"Category_str": "Subject",
+			"CQRCid": "97",
+			"Tag": "Consumer Affairs",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_consumer_affairs",
+			"Title": "Consumer Affairs",
+			"Title_raw": "Q29uc3VtZXIgQWZmYWlycw==",
+			"Query": "Tag:'Subject|Consumer Affairs'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "594332b7-0e11-42b3-b749-3c37b9a0cc38",
+			"Category_str": "Subject",
+			"CQRCid": "98",
+			"Tag": "Medicare & Medicaid",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_medicare_and_medicaid",
+			"Title": "Medicare & Medicaid",
+			"Title_raw": "TWVkaWNhcmUgJiBNZWRpY2FpZA==",
+			"Query": "Tag:'Subject|Medicare & Medicaid'"
+		}
+	},
+	"add": {
+		"doc": {
+			"id": "8ddb0d02-d381-4775-a050-917b2bf09fc4",
+			"Category_str": "Subject",
+			"CQRCid": "100",
+			"Tag": "Human Services",
+			"Contributor": "CQ/Roll Call",
+			"Private": "false",
+			"URLSlug": "subject_human_services",
+			"Title": "Human Services",
+			"Title_raw": "SHVtYW4gU2VydmljZXM=",
+			"Query": "Tag:'Subject|Human Services'"
+		}
+	},
+
+	"commit": {}
+}

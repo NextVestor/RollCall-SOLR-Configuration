@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
+		<meta name="X-Parsed-By" content="org.apache.tika.parser.image.ImageParser"/>
+		<meta name="Transparency Alpha" content="none"/>
+		<meta name="pHYs" content="pixelsPerUnitXAxis=1, pixelsPerUnitYAxis=1, unitSpecifier=unknown"/>
+		<meta name="tiff:ImageLength" content="1080"/>
+		<meta name="Compression CompressionTypeName" content="deflate"/>
+		<meta name="Dimension PixelAspectRatio" content="1.0"/>
+		<meta name="Data BitsPerSample" content="8 8 8"/>
+		<meta name="Data PlanarConfiguration" content="PixelInterleaved"/>
+		<meta name="IHDR" content="width=1920, height=1080, bitDepth=8, colorType=RGB, compressionMethod=deflate, filterMethod=adaptive, interlaceMethod=none"/>
+		<meta name="Compression NumProgressiveScans" content="1"/>
+		<meta name="Chroma ColorSpaceType" content="RGB"/>
+		<meta name="Chroma BlackIsZero" content="true"/>
+		<meta name="Compression Lossless" content="true"/>
+		<meta name="width" content="1920"/>
+		<meta name="Dimension ImageOrientation" content="Normal"/>
+		<meta name="tiff:BitsPerSample" content="8 8 8"/>
+		<meta name="tiff:ImageWidth" content="1920"/>
+		<meta name="Chroma NumChannels" content="3"/>
+		<meta name="Data SampleFormat" content="UnsignedIntegral"/>
+		<meta name="Content-Type" content="image/png"/>
+		<meta name="height" content="1080"/>
+		<title>
+		</title>
+	</head>
+	<body/>
+</html>
