@@ -966,7 +966,12 @@
 	<field name="Tag" type="text_en_splitting" indexed="true" multiValued="true" stored="true"/>
 	<field name="UploadDate" type="date" indexed="true" stored="true"/> 
 	<field name="Uploader" type="text_general" indexed="true" stored="true"/>
-	<field name="UploadMethod" type="string" indexed="true" stored="true" />		
-	
+	<field name="UploadMethod" type="string" indexed="true" stored="true" />
+
+    <copyField source="Body" dest="text" />
+    <copyField source="Contributor" dest="text" />
+    <copyField source="Tag" dest="text" />
+    
+    <field name="text"  type="text_en" indexed="true" multiValued="true"  stored="false" />   	
 
 </schema>
