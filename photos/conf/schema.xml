@@ -959,7 +959,8 @@
 	<field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
 	<field name="Contributor" type="text_en" indexed="true" stored="true" multiValued="true"/>
 	<field name="Body" type="text_en" indexed="true" stored="true"/>
-    <field name="PhotoLocation" type="text_general" indexed="true" multiValued="true"  stored="true"/>	
+    <field name="PhotoLocation" type="text_general" indexed="true" multiValued="true"  stored="true"/>
+    <field name="ImageDerived" type="string" indexed="false" multiValued="true"  stored="true"/>      
     <field name="PhotoFileName" type="text_general" indexed="true" stored="true" />	
 	<field name="FieldNames" type="text_general" indexed="true" stored="true" multiValued="true"/>
 	<field name="SourceFieldNames" type="text_general" indexed="true" stored="true" multiValued="true"/>

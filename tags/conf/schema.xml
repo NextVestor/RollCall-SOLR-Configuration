@@ -43,7 +43,7 @@
   - Remember to run the JVM in server mode, and use a higher logging level
     that avoids logging every request
 -->
-<schema name="example" version="1.5">
+<schema name="tags" version="1.5">
 	<!-- attribute "name" is the name of this schema and is only used for display purposes.
        version="x.y" is Solr's version number for the schema syntax and 
        semantics.  It should not normally be changed by applications.
@@ -359,6 +359,36 @@
 			<filter class="solr.PorterStemFilterFactory"/>
 		</analyzer>
 	</fieldType>
+	
+<!-- The following fields are taken from Solr in Action and are used to implement suggestions -->
+	
+		<fieldType name="text_suggest" class="solr.TextField" positionIncrementGap="100">
+			<analyzer>
+				<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.EnglishPossessiveFilterFactory"/>
+			</analyzer>
+		</fieldType>
+		<fieldType name="text_suggest_ngram" class="solr.TextField" positionIncrementGap="100">
+			<analyzer type="index">
+				<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.EnglishPossessiveFilterFactory"/>
+				<filter class="solr.EdgeNGramFilterFactory" maxGramSize="10" minGramSize="1"/>
+			</analyzer>
+			<analyzer type="query">
+				<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.EnglishPossessiveFilterFactory"/>
+			</analyzer>
+		</fieldType>	
+	
 	<!-- A text field with defaults appropriate for English, plus
 	 aggressive word-splitting and autophrase features enabled.
 	 This field is just like text_en, except it adds
@@ -935,18 +965,18 @@
      </similarity>
     -->
 	<field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
+	
+	
+	    <!-- **********************************************************************************-->
+	<!-- ********** Fields defined for a Tag                                       -->
+    <!-- **********************************************************************************-->
+    
+    
 	<field name="CQRCid" type="string" indexed="true" stored="true" multiValued="false"/>
 	<field name="Tag" type="string" indexed="true" stored="true" omitNorms="true"/>
-	<!-- Common metadata fields, named specifically to match up with
-     SolrCell metadata when parsing rich documents such as Word, PDF.
-     Some fields are multiValued only because Tika currently may return
-     multiple values for them. Some metadata is parsed from the documents,
-     but there are some which come from the client context:
-       "content_type": From the HTTP headers of incoming stream
-       "resourcename": From SolrCell request param resource.name
-   -->
-	<field name="Category_str" type="string" indexed="true" stored="true" />
-	<field name="Category" type="text_en" indexed="true" />
+
+	<field name="Category_str" type="string" indexed="true" stored="true"/>
+	<field name="Category" type="text_en" indexed="true" multiValued="true" />
 	<field name="URLSlug" type="text_general" indexed="true" stored="true" multiValued="true"/>
 	<field name="Title" type="text_general" indexed="true" stored="true"/>
 	<!-- change to lower case -->
@@ -963,17 +993,22 @@
     <field name="CreatedDate" type="date" indexed="true" stored="true"/> <!-- Date first created. Also used in the ID --> 
     <field name="UpdateDate" type="date" indexed="true" stored="true"/>  <!-- Date last modified --> 
     
+    <field name="text"  type="text_en" indexed="true" multiValued="true" />
+	<field name="suggest_ngram" type="text_suggest_ngram" indexed="true" multiValued="true" stored="false" />
+	<field name="suggest" type="text_suggest" indexed="true" multiValued="true" stored="false" />
+	<field name="phoneme" type="phonetic" indexed="true" multiValued="true" stored="false" />
+    
     <copyField source="Category_str" dest="Category" />
     <copyField source="Category_str" dest="text" />
     <copyField source="URLSlug" dest="text" />
     <copyField source="Title" dest="text" />
+    <copyField source="Title" dest="suggest_ngram" />    
+    <copyField source="Title" dest="suggest" />    
     <copyField source="SubTitle" dest="text" />
     <copyField source="Body" dest="text" />
     <copyField source="Tag" dest="text" />
-    
- 
-    <field name="text"  type="text_en" indexed="true" multiValued="true" />
-	
-	
-	
+    <copyField source="Tag" dest="suggest_ngram" />    
+    <copyField source="Tag" dest="suggest" />    
+    <copyField source="Tag" dest="phoneme" />    
+
 </schema>

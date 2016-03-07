@@ -421,17 +421,23 @@
     <fieldtype name="ignored" stored="false" indexed="false" multiValued="true" class="solr.StrField" />
     
     <!-- **********************************************************************************-->
-	<!-- ********** Fields defined for the Video Entity                                        -->
+	<!-- ********** Fields defined for a card                                       -->
     <!-- **********************************************************************************-->
  
     <field name="PageID" type="string" indexed="true" stored="true" multiValued="false" />
-    <field name="DocID" type="string" indexed="true" stored="true" multiValued="false" />
-    <field name="CardOrder" type="int" indexed="true" stored="true" multiValued="false" />
+    <field name="DocID" type="string" indexed="true" stored="true" multiValued="false" /> <!-- for a DLC points tot he the id of the tag, for a Curated list points tot he ID of the page. -->
     <field name="Active" type="string" indexed="true" stored="true" default="false" />    
-    <field name="CardType" type="string"  indexed="true" stored="true"/>
     <field name="PostDestination" type="string" indexed="true" stored="true"  />
-	<field name="CardFormat" type="string" indexed="true" stored="true"  />
+    <field name="CardOrder" type="int" indexed="true" stored="true" multiValued="false" />
+    <field name="CardType" type="string"  indexed="true" stored="true"/> <!-- This is the type of card. Most cards will be of type content meaning it can be used for Stories or video --> 
+    <field name="CardLayout" type="string"  indexed="true" stored="true"/> <!-- This will map to the template -->
+	<field name="CardFormat" type="string" indexed="true" stored="true"  /> <!-- This is the style to be applied. It is blank unless there are special formatting rules applied.--> 
 	<field name="CardColumnSpan"  type="int" indexed="true" stored="true"  />    
+	<field name="CardHeight"  type="int" indexed="true" stored="true"  />    
+	<field name="CardWidth"  type="int" indexed="true" stored="true"  />    
+    <field name="CardAspectRatio" type="string"  indexed="true" stored="true"/>
+            
+
         
     <field name="CardTitle" type="text_general" indexed="true" stored="true"/> <!-- change to lower case --> 
     <field name="CardTitle_raw" type="string" indexed="false" stored="true"/>    
