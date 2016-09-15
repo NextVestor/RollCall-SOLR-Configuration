@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema name="videos" version="1.5">
+<schema name="stories" version="1.5">
 	<!-- If you remove this field, you must _also_ disable the update log in solrconfig.xml
       or Solr won't start. _version_ and update log are required for SolrCloud
    -->
@@ -374,6 +374,17 @@
 			<tokenizer class="solr.KeywordTokenizerFactory"/>
 		</analyzer>
 	</fieldType>
+	
+    <fieldType name="URL" class="solr.TextField">
+      <analyzer type="index">      
+		  <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="/" replacement=" "/>
+             <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      </analyzer>
+      <analyzer type="query">
+	<tokenizer class="solr.KeywordTokenizerFactory" />
+      </analyzer>
+    </fieldType>    
+    	
 	<!-- 
       Example of using PathHierarchyTokenizerFactory at query time, so
       queries for paths match documents at that path, or in ancestor paths
@@ -397,6 +408,7 @@
 	<field name="DocID" type="string" indexed="true" stored="true"/>
 	<field name="Active" type="string" indexed="true" stored="true" default="false"/>
 	<field name="URLSlug" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="URLSlug_path" type="URL" indexed="true" stored="false" multiValued="true"/>
 	<field name="Section" type="text_general" indexed="true" stored="true"/>
 	<!-- used for organizing content into sections for SEO ex. /news/<section>/<URLSlug> -->
 	<field name="SectionID" type="string" indexed="true" multiValued="false" stored="true"/>
@@ -414,9 +426,11 @@
 	<field name="Topic" type="text_en" indexed="true" stored="true"/>
 	<!-- organization label. -->
 	<field name="altTitle" type="text_en" indexed="true" stored="true" multiValued="true"/>
-	<!-- must be text and not html -->
+	<!-- must be text and not html Stored in the form of <title type>|||<base64encoded content> -->
 	<field name="altBody" type="text_en" indexed="true" stored="true" multiValued="true"/>
-	<!-- must be text and not html -->
+	<!-- must be text and not html Stored in the form of <body type>|||<base64encoded content>  -->
+	<field name="altImage" type="string" indexed="true" stored="true" multiValued="true"/>
+	<!-- must be text and not html Stored in the form of <image type>|||<root relative URL>  -->
 	<field name="Keywords" type="text_en" indexed="true" stored="true" multiValued="true"/>
 	
 	
@@ -424,6 +438,8 @@
 	<field name="SubTitle_raw" type="string" indexed="false" stored="true"/>
 	<field name="Body" type="text_en" indexed="true" stored="true"/>
 	<field name="Body_raw" type="string" indexed="false" stored="true"/>
+	<field name="ContentOriginal" type="string" indexed="false" stored="true"/>
+	
 	<field name="Contributor" type="text_general" indexed="true" stored="true" multiValued="true"/>
 	<field name="ContributorID" type="string" indexed="true" stored="true" multiValued="true"/>
 	<field name="PrimaryImageFileName" type="text_en_splitting" indexed="true" stored="false"/>
@@ -474,6 +490,7 @@
 	<copyField source="Body" dest="phoneme"/>
 	<copyField source="Title" dest="text"/>
 	<copyField source="SubTitle" dest="text"/>
+	<copyField source="URLSlug" dest="URLSlug_path"/>
 	<copyField source="Body" dest="text"/>
 	<copyField source="Contributor" dest="text"/>
 	<copyField source="TagName" dest="text"/>

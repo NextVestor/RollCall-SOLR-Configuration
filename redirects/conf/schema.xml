@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema name="videos" version="1.5">
+<schema name="redirects" version="1.5">
 	<!-- If you remove this field, you must _also_ disable the update log in solrconfig.xml
       or Solr won't start. _version_ and update log are required for SolrCloud
    -->
@@ -395,11 +395,26 @@
 	<!-- ********** Fields defined for Redirects                                        -->
 	<!-- **********************************************************************************-->
 	<field name="SourceURI" type="string" indexed="true" stored="true"/> <!-- URL to redirect. Everything but the http: --> 
+	<field name="SourceDomain" type="string" indexed="true" stored="true"/> <!-- Destination URL . Everything but the http: --> 
+	<field name="SourcePath" type="string" indexed="true" stored="true"/> <!-- URL to redirect. Everything but the http: --> 
+	<field name="SourceFile" type="string" indexed="true" stored="true"/> <!-- URL to redirect. Everything but the http: --> 
+	
 	<field name="DestinationURI" type="string" indexed="true" stored="true"/> <!-- Destination URL . Everything but the http: --> 
+	<field name="DestinationDomain" type="string" indexed="true" stored="true"/> <!-- Destination URL . Everything but the http: --> 
+	<field name="DestinationPath" type="string" indexed="true" stored="true"/> <!-- Destination URL . Everything but the http: --> 
+	<field name="DestinationFile" type="string" indexed="true" stored="true"/> <!-- Destination URL . Everything but the http: -->
+ 
 	<field name="RedirectType" type="string" indexed="true" stored="true"/> <!-- 301 or 302 as text --> 
-	<field name="Active" type="string" indexed="true" stored="true" default="false"/> <!-- if false then do nto redirect. --> 
+	<field name="RedirectPurpose" type="string" indexed="true" stored="true"/> <!-- Why was this redirect created. (iProLegacy for redirects carried over from iPro data migration) --> 
+	<field name="PreserveDomain" type="string" indexed="true" stored="true"/> <!-- Flag to indicate that the domain of the request should be used for the response --> 
+	<field name="Active" type="string" indexed="true" stored="true" default="false"/> <!-- if false then do not redirect. -->
+	
+	<field name="CreatedDate" type="date" indexed="true" stored="true"/><!-- Date first created. Also used in the ID -->
+	<field name="UpdateDate" type="date" indexed="true" stored="true"/><!-- Date last modified --> 
+	<field name="ExpirationDate" type="date" indexed="true" stored="true"/><!-- Date this redirect expires modified --> 
+	<field name="PublishDate" type="date" indexed="true" stored="true"/><!-- Embargo Date --> 
 
-    	<field name="text"  type="text_en" indexed="true" multiValued="true" stored="false"  />
+    <field name="text"  type="text_en" indexed="true" multiValued="true" stored="false"  />
 	<field name="suggest_ngram" type="text_suggest_ngram" indexed="true" multiValued="true" stored="false" />
 	<field name="suggest" type="text_suggest" indexed="true" multiValued="true" stored="false" />
 	<field name="phoneme" type="phonetic" indexed="true" multiValued="true" stored="false" />
