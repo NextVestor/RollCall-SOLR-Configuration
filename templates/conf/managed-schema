@@ -531,7 +531,7 @@
 	<field name="DocID" type="string" indexed="true" stored="true" docValues="true" />
 	<field name="Active" type="string" indexed="true" stored="true" default="false" docValues="true" />
 	<field name="state" type="string" indexed="true" stored="true" docValues="true" />	
-	<field name="ClientID" type="string"  mutiValued="true" indexed="true" stored="true" docValues="true" />
+	<field name="ClientID" type="string"  multiValued="true" indexed="true" stored="true" docValues="true" />
 	<field name="TemplateType" type="string" indexed="true" stored="true" docValues="true" />
 	<field name="TemplateContent" type="string" indexed="false" stored="true" />
 	
