@@ -35,7 +35,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>6.2.1</luceneMatchVersion>
+  <luceneMatchVersion>6.6.1</luceneMatchVersion>
 
   <!-- <lib/> directives can be used to instruct Solr to load any Jars
        identified and use them to resolve any "plugins" specified in
@@ -1057,6 +1057,50 @@
     </lst>
     <arr name="last-components">
       <str>spellcheck</str>
+    </arr>
+  </requestHandler>
+  
+    <!-- The SuggestComponent in Solr provides users with automatic suggestions for query terms. 
+       You can use this to implement a powerful auto-suggest feature in your search application.
+       As with the rest of this solrconfig.xml file, the configuration of this component is purely
+       an example that applies specifically to this configset and example documents. 
+       
+       More information about this component and other configuration options are described in the
+       "Suggester" section of the reference guide available at 
+       http://archive.apache.org/dist/lucene/solr/ref-guide
+    -->
+  <searchComponent name="suggest" class="solr.SuggestComponent">
+    <lst name="suggester">
+      <str name="name">personSuggester_pre</str>
+      <str name="lookupImpl">AnalyzingInfixLookupFactory</str>      
+      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="field">OrderByName</str>
+      <!-- str name="weightField">price</str -->
+      <str name="suggestAnalyzerFieldType">suggestTypeLc</str>
+      <str name="buildOnStartup">false</str>
+      <str name="buildOnCommit">true</str>
+      <str name="contextField">Active</str>
+    </lst>
+    <lst name="suggester">
+      <str name="name">personSuggester_fuzzy</str>
+      <str name="lookupImpl">FuzzyLookupFactory</str>
+      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+      <str name="field">OrderByName</str>
+      <!-- str name="weightField">price</str -->
+      <str name="suggestAnalyzerFieldType">suggestTypeLc</str>
+      <str name="buildOnStartup">false</str>
+      <str name="buildOnCommit">true</str>     
+    </lst>
+  </searchComponent>
+
+  <requestHandler name="/suggest" class="solr.SearchHandler" 
+                  startup="lazy" >
+    <lst name="defaults">
+      <str name="suggest">true</str>
+      <str name="suggest.count">10</str>
+    </lst>
+    <arr name="components">
+      <str>suggest</str>
     </arr>
   </requestHandler>
 

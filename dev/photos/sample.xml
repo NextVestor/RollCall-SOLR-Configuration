@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<lst name="responseHeader">
+		<int name="status">0</int>
+		<int name="QTime">0</int>
+		<lst name="params">
+			<str name="indent">true</str>
+			<str name="q">*:*</str>
+			<str name="wt">xml</str>
+			<str name="rows">1</str>
+		</lst>
+	</lst>
+	<result name="response" numFound="40035" start="0">
+		<doc>
+			<str name="id">selma_163_021415.JPG</str>
+			<str name="PhotoFileName">selma_163_021415.JPG</str>
+			<arr name="PhotoLocation">
+				<str>photos/archive/2015/02-Feb-2015/02-23/selma_163_021415.JPG</str>
+			</arr>
+			<date name="UploadDate">2016-03-21T11:00:36.007Z</date>
+			<arr name="RedColorant_en">
+				<str>(0.6097412, 0.31111145, 0.019470215)</str>
+			</arr>
+			<arr name="FieldNames">
+				<str>RedColorant_en</str>
+				<str>MeteringMode_en</str>
+				<str>Model_en</str>
+				<str>XYZvalues_en</str>
+				<str>FileName_en</str>
+				<str>Lens_en</str>
+				<str>CFAPattern_en</str>
+				<str>tiff:ImageLength_en</str>
+				<str>Creation-Date_en</str>
+				<str>ISOSpeedRatings_en</str>
+				<str>DigitalDateCreated_en</str>
+				<str>tiff:ImageWidth_en</str>
+				<str>ImageWidth_en</str>
+				<str>CaptionAbstract_en</str>
+				<str>ProfileSize_en</str>
+				<str>F-Number_en</str>
+				<str>DataPrecision_en</str>
+				<str>Sharpness_en</str>
+				<str>FileModifiedDate_en</str>
+				<str>tiff:BitsPerSample_en</str>
+				<str>tiff:YResolution_en</str>
+				<str>CompressionType_en</str>
+				<str>ResolutionInfo_en</str>
+				<str>exif:IsoSpeedRatings_en</str>
+				<str>SensitivityType_en</str>
+				<str>Rating_en</str>
+				<str>FocalLength_en</str>
+				<str>Class_en</str>
+				<str>BodySerialNumber_en</str>
+				<str>ThumbnailData_en</str>
+				<str>WhiteBalanceMode_en</str>
+				<str>Make_en</str>
+				<str>MediaWhitePoint_en</str>
+				<str>tiff:Make_en</str>
+				<str>DateTimeOriginal_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>subject_en</str>
+				<str>SceneCaptureType_en</str>
+				<str>date_en</str>
+				<str>FocalPlaneXResolution_en</str>
+				<str>ObjectName_en</str>
+				<str>tiff:ResolutionUnit_en</str>
+				<str>meta:author_en</str>
+				<str>Copyright_en</str>
+				<str>CountryPrimaryLocationName_en</str>
+				<str>XMPValueCount_en</str>
+				<str>tiff:Software_en</str>
+				<str>SubjectDistanceRange_en</str>
+				<str>WhiteBalance_en</str>
+				<str>FocalPlaneResolutionUnit_en</str>
+				<str>ApertureValue_en</str>
+				<str>DateCreated_en</str>
+				<str>Sub-SecTimeDigitized_en</str>
+				<str>RedTRC_en</str>
+				<str>GreenTRC_en</str>
+				<str>SceneType_en</str>
+				<str>ExposureTime_en</str>
+				<str>exif:DateTimeOriginal_en</str>
+				<str>BlueTRC_en</str>
+				<str>exif:FocalLength_en</str>
+				<str>City_en</str>
+				<str>ProfileConnectionSpace_en</str>
+				<str>MediaBlackPoint_en</str>
+				<str>Colorspace_en</str>
+				<str>SerialNumber_en</str>
+				<str>CustomRendered_en</str>
+				<str>LensModel_en</str>
+				<str>DigitalZoomRatio_en</str>
+				<str>ExposureProgram_en</str>
+				<str>YResolution_en</str>
+				<str>Software_en</str>
+				<str>CopyrightNotice_en</str>
+				<str>meta:save-date_en</str>
+				<str>By-lineTitle_en</str>
+				<str>DigitalTimeCreated_en</str>
+				<str>ExposureMode_en</str>
+				<str>ExifVersion_en</str>
+				<str>SensingMethod_en</str>
+				<str>TimeCreated_en</str>
+				<str>exif:Flash_en</str>
+				<str>DCTEncodeVersion_en</str>
+				<str>XResolution_en</str>
+				<str>ShutterSpeedValue_en</str>
+				<str>GreenColorant_en</str>
+				<str>tiff:XResolution_en</str>
+				<str>ApplicationRecordVersion_en</str>
+				<str>ProfileDescription_en</str>
+				<str>CMMType_en</str>
+				<str>SupplementalCategory(s)_en</str>
+				<str>Last-Save-Date_en</str>
+				<str>dc:title_en</str>
+				<str>exif:FNumber_en</str>
+				<str>meta:creation-date_en</str>
+				<str>Flags0_en</str>
+				<str>Last-Modified_en</str>
+				<str>CountryPrimaryLocationCode_en</str>
+				<str>Flags1_en</str>
+				<str>Saturation_en</str>
+				<str>X-Parsed-By_en</str>
+				<str>X-Parsed-By_en</str>
+				<str>Unknowntag(0x02dd)_en</str>
+				<str>modified_en</str>
+				<str>FocalLength35_en</str>
+				<str>MaxApertureValue_en</str>
+				<str>Source_en</str>
+				<str>ThumbnailOffset_en</str>
+				<str>Headline_en</str>
+				<str>ThumbnailLength_en</str>
+				<str>ThumbnailCompression_en</str>
+				<str>Content-Type_en</str>
+				<str>ExposureBiasValue_en</str>
+				<str>LensInformation_en</str>
+				<str>By-line_en</str>
+				<str>ProvinceState_en</str>
+				<str>BlueColorant_en</str>
+				<str>Credit_en</str>
+				<str>dcterms:created_en</str>
+				<str>PrimaryPlatform_en</str>
+				<str>exif:ExposureTime_en</str>
+				<str>Signature_en</str>
+				<str>Component1_en</str>
+				<str>Component2_en</str>
+				<str>Component3_en</str>
+				<str>Flash_en</str>
+				<str>FocalPlaneYResolution_en</str>
+				<str>DateTimeDigitized_en</str>
+				<str>Devicemanufacturer_en</str>
+				<str>FileSize_en</str>
+				<str>ColorTransform_en</str>
+				<str>Contrast_en</str>
+				<str>ResolutionUnit_en</str>
+				<str>Sub-SecTimeOriginal_en</str>
+				<str>TagCount_en</str>
+				<str>NumberofComponents_en</str>
+				<str>ProfileDateTime_en</str>
+				<str>tiff:Model_en</str>
+				<str>dcterms:modified_en</str>
+				<str>ImageHeight_en</str>
+				<str>dc:creator_en</str>
+				<str>CaptionDigest_en</str>
+				<str>LensSpecification_en</str>
+				<str>DateTime_en</str>
+				<str>FileSource_en</str>
+				<str>GainControl_en</str>
+			</arr>
+			<arr name="SourceFieldNames">
+				<str>Red Colorant</str>
+				<str>Metering Mode</str>
+				<str>Model</str>
+				<str>XYZ values</str>
+				<str>File Name</str>
+				<str>Lens</str>
+				<str>CFA Pattern</str>
+				<str>tiff:ImageLength</str>
+				<str>Creation-Date</str>
+				<str>ISO Speed Ratings</str>
+				<str>Digital Date Created</str>
+				<str>tiff:ImageWidth</str>
+				<str>Image Width</str>
+				<str>Caption/Abstract</str>
+				<str>Profile Size</str>
+				<str>F-Number</str>
+				<str>Data Precision</str>
+				<str>Sharpness</str>
+				<str>File Modified Date</str>
+				<str>tiff:BitsPerSample</str>
+				<str>tiff:YResolution</str>
+				<str>Compression Type</str>
+				<str>Resolution Info</str>
+				<str>exif:IsoSpeedRatings</str>
+				<str>Sensitivity Type</str>
+				<str>Rating</str>
+				<str>Focal Length</str>
+				<str>Class</str>
+				<str>Body Serial Number</str>
+				<str>Thumbnail Data</str>
+				<str>White Balance Mode</str>
+				<str>Make</str>
+				<str>Media White Point</str>
+				<str>tiff:Make</str>
+				<str>Date/Time Original</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>subject</str>
+				<str>Scene Capture Type</str>
+				<str>date</str>
+				<str>Focal Plane X Resolution</str>
+				<str>Object Name</str>
+				<str>tiff:ResolutionUnit</str>
+				<str>meta:author</str>
+				<str>Copyright</str>
+				<str>Country/Primary Location Name</str>
+				<str>XMP Value Count</str>
+				<str>tiff:Software</str>
+				<str>Subject Distance Range</str>
+				<str>White Balance</str>
+				<str>Focal Plane Resolution Unit</str>
+				<str>Aperture Value</str>
+				<str>Date Created</str>
+				<str>Sub-Sec Time Digitized</str>
+				<str>Red TRC</str>
+				<str>Green TRC</str>
+				<str>Scene Type</str>
+				<str>Exposure Time</str>
+				<str>exif:DateTimeOriginal</str>
+				<str>Blue TRC</str>
+				<str>exif:FocalLength</str>
+				<str>City</str>
+				<str>Profile Connection Space</str>
+				<str>Media Black Point</str>
+				<str>Color space</str>
+				<str>Serial Number</str>
+				<str>Custom Rendered</str>
+				<str>Lens Model</str>
+				<str>Digital Zoom Ratio</str>
+				<str>Exposure Program</str>
+				<str>Y Resolution</str>
+				<str>Software</str>
+				<str>Copyright Notice</str>
+				<str>meta:save-date</str>
+				<str>By-line Title</str>
+				<str>Digital Time Created</str>
+				<str>Exposure Mode</str>
+				<str>Exif Version</str>
+				<str>Sensing Method</str>
+				<str>Time Created</str>
+				<str>exif:Flash</str>
+				<str>DCT Encode Version</str>
+				<str>X Resolution</str>
+				<str>Shutter Speed Value</str>
+				<str>Green Colorant</str>
+				<str>tiff:XResolution</str>
+				<str>Application Record Version</str>
+				<str>Profile Description</str>
+				<str>CMM Type</str>
+				<str>Supplemental Category(s)</str>
+				<str>Last-Save-Date</str>
+				<str>dc:title</str>
+				<str>exif:FNumber</str>
+				<str>meta:creation-date</str>
+				<str>Flags 0</str>
+				<str>Last-Modified</str>
+				<str>Country/Primary Location Code</str>
+				<str>Flags 1</str>
+				<str>Saturation</str>
+				<str>X-Parsed-By</str>
+				<str>X-Parsed-By</str>
+				<str>Unknown tag (0x02dd)</str>
+				<str>modified</str>
+				<str>Focal Length 35</str>
+				<str>Max Aperture Value</str>
+				<str>Source</str>
+				<str>Thumbnail Offset</str>
+				<str>Headline</str>
+				<str>Thumbnail Length</str>
+				<str>Thumbnail Compression</str>
+				<str>Content-Type</str>
+				<str>Exposure Bias Value</str>
+				<str>Lens Information</str>
+				<str>By-line</str>
+				<str>Province/State</str>
+				<str>Blue Colorant</str>
+				<str>Credit</str>
+				<str>dcterms:created</str>
+				<str>Primary Platform</str>
+				<str>exif:ExposureTime</str>
+				<str>Signature</str>
+				<str>Component 1</str>
+				<str>Component 2</str>
+				<str>Component 3</str>
+				<str>Flash</str>
+				<str>Focal Plane Y Resolution</str>
+				<str>Date/Time Digitized</str>
+				<str>Device manufacturer</str>
+				<str>File Size</str>
+				<str>Color Transform</str>
+				<str>Contrast</str>
+				<str>Resolution Unit</str>
+				<str>Sub-Sec Time Original</str>
+				<str>Tag Count</str>
+				<str>Number of Components</str>
+				<str>Profile Date/Time</str>
+				<str>tiff:Model</str>
+				<str>dcterms:modified</str>
+				<str>Image Height</str>
+				<str>dc:creator</str>
+				<str>Caption Digest</str>
+				<str>Lens Specification</str>
+				<str>Date/Time</str>
+				<str>File Source</str>
+				<str>Gain Control</str>
+			</arr>
+			<arr name="MeteringMode_en">
+				<str>Multi-segment</str>
+			</arr>
+			<arr name="Model_en">
+				<str>NIKON D4</str>
+			</arr>
+			<arr name="XYZvalues_en">
+				<str>0.9642029 1.0 0.8249054</str>
+			</arr>
+			<arr name="FileName_en">
+				<str>apache-tika-1518689767083972879.tmp</str>
+			</arr>
+			<arr name="Lens_en">
+				<str>70.0-200.0 mm f/2.8</str>
+			</arr>
+			<arr name="CFAPattern_en">
+				<str>2 0 2 0 0 1 1 2</str>
+			</arr>
+			<arr name="tiff:ImageLength_en">
+				<str>3280</str>
+			</arr>
+			<arr name="Creation-Date_en">
+				<str>2015-02-14T09:16:53</str>
+			</arr>
+			<arr name="ISOSpeedRatings_en">
+				<str>200</str>
+			</arr>
+			<arr name="DigitalDateCreated_en">
+				<str>20150214</str>
+			</arr>
+			<arr name="tiff:ImageWidth_en">
+				<str>4928</str>
+			</arr>
+			<arr name="ImageWidth_en">
+				<str>4928 pixels</str>
+			</arr>
+			<arr name="Tag">
+				<str>Keywords|government</str>
+				<str>Keywords|politics</str>
+				<str>Keywords|congress</str>
+				<str>Keywords|house of representatives</str>
+				<str>Keywords|selma</str>
+				<str>Keywords|alabama</str>
+				<str>Keywords|edmund pettus bridge</str>
+				<str>Keywords|congressman</str>
+				<str>Keywords|john lewis</str>
+				<str>Keywords|cbs</str>
+				<str>Keywords|bob schieffer</str>
+				<str>Keywords|government</str>
+				<str>Keywords|politics</str>
+				<str>Keywords|congress</str>
+				<str>Keywords|house of representatives</str>
+				<str>Keywords|selma</str>
+				<str>Keywords|alabama</str>
+				<str>Keywords|edmund pettus bridge</str>
+				<str>Keywords|congressman</str>
+				<str>Keywords|john lewis</str>
+				<str>Keywords|cbs</str>
+				<str>Keywords|bob schieffer</str>
+				<str>Subject|government politics congress house of representatives selma alabama edmund pettus bridge congressman john lewis cbs bob schieffer</str>
+				<str>dc:subject|government</str>
+				<str>dc:subject|politics</str>
+				<str>dc:subject|congress</str>
+				<str>dc:subject|house of representatives</str>
+				<str>dc:subject|selma</str>
+				<str>dc:subject|alabama</str>
+				<str>dc:subject|edmund pettus bridge</str>
+				<str>dc:subject|congressman</str>
+				<str>dc:subject|john lewis</str>
+				<str>dc:subject|cbs</str>
+				<str>dc:subject|bob schieffer</str>
+				<str>dc:subject|government</str>
+				<str>dc:subject|politics</str>
+				<str>dc:subject|congress</str>
+				<str>dc:subject|house of representatives</str>
+				<str>dc:subject|selma</str>
+				<str>dc:subject|alabama</str>
+				<str>dc:subject|edmund pettus bridge</str>
+				<str>dc:subject|congressman</str>
+				<str>dc:subject|john lewis</str>
+				<str>dc:subject|cbs</str>
+				<str>dc:subject|bob schieffer</str>
+				<str>meta:keyword|government</str>
+				<str>meta:keyword|politics</str>
+				<str>meta:keyword|congress</str>
+				<str>meta:keyword|house of representatives</str>
+				<str>meta:keyword|selma</str>
+				<str>meta:keyword|alabama</str>
+				<str>meta:keyword|edmund pettus bridge</str>
+				<str>meta:keyword|congressman</str>
+				<str>meta:keyword|john lewis</str>
+				<str>meta:keyword|cbs</str>
+				<str>meta:keyword|bob schieffer</str>
+				<str>meta:keyword|government</str>
+				<str>meta:keyword|politics</str>
+				<str>meta:keyword|congress</str>
+				<str>meta:keyword|house of representatives</str>
+				<str>meta:keyword|selma</str>
+				<str>meta:keyword|alabama</str>
+				<str>meta:keyword|edmund pettus bridge</str>
+				<str>meta:keyword|congressman</str>
+				<str>meta:keyword|john lewis</str>
+				<str>meta:keyword|cbs</str>
+				<str>meta:keyword|bob schieffer</str>
+			</arr>
+			<arr name="CaptionAbstract_en">
+				<str>UNITED STATES - FEBRUARY 14: Rep. John Lewis, D-Ga., walks across the Edmund Pettus Bridge with Bob Schieffer of CBS News on Saturday, Feb. 14, 2015. Rep. Lewis was beaten by police on the bridge on "Bloody Sunday" 50 years ago on March 7, 1965, during an attempted march for voting rights from Selma to Montgomery. (Photo By Bill Clark/CQ Roll Call)</str>
+			</arr>
+			<arr name="ProfileSize_en">
+				<str>560</str>
+			</arr>
+			<arr name="F-Number_en">
+				<str>F4</str>
+			</arr>
+			<arr name="DataPrecision_en">
+				<str>8 bits</str>
+			</arr>
+			<arr name="Sharpness_en">
+				<str>None</str>
+			</arr>
+			<arr name="FileModifiedDate_en">
+				<str>Mon Mar 21 11:04:10 UTC 2016</str>
+			</arr>
+			<arr name="tiff:BitsPerSample_en">
+				<str>8</str>
+			</arr>
+			<arr name="tiff:YResolution_en">
+				<str>300.0</str>
+			</arr>
+			<arr name="CompressionType_en">
+				<str>Baseline</str>
+			</arr>
+			<arr name="ResolutionInfo_en">
+				<str>300.0x300.0 DPI</str>
+			</arr>
+			<arr name="exif:IsoSpeedRatings_en">
+				<str>200</str>
+			</arr>
+			<arr name="SensitivityType_en">
+				<str>Recommended Exposure Index</str>
+			</arr>
+			<arr name="Rating_en">
+				<str>5.0</str>
+			</arr>
+			<arr name="FocalLength_en">
+				<str>200.0 mm</str>
+			</arr>
+			<arr name="Class_en">
+				<str>Display Device</str>
+			</arr>
+			<arr name="BodySerialNumber_en">
+				<str>2020686</str>
+			</arr>
+			<arr name="ThumbnailData_en">
+				<str>JpegRGB, 256x170, Decomp 130560 bytes, 1572865 bpp, 18259 bytes</str>
+			</arr>
+			<arr name="WhiteBalanceMode_en">
+				<str>Auto white balance</str>
+			</arr>
+			<arr name="Make_en">
+				<str>NIKON CORPORATION</str>
+			</arr>
+			<arr name="MediaWhitePoint_en">
+				<str>(0.9504547, 1.0, 1.0890503)</str>
+			</arr>
+			<arr name="tiff:Make_en">
+				<str>NIKON CORPORATION</str>
+			</arr>
+			<arr name="DateTimeOriginal_en">
+				<str>2015:02:14 09:16:53</str>
+			</arr>
+			<arr name="subject_en">
+				<str>government</str>
+				<str>politics</str>
+				<str>congress</str>
+				<str>house of representatives</str>
+				<str>selma</str>
+				<str>alabama</str>
+				<str>edmund pettus bridge</str>
+				<str>congressman</str>
+				<str>john lewis</str>
+				<str>cbs</str>
+				<str>bob schieffer</str>
+				<str>government</str>
+				<str>politics</str>
+				<str>congress</str>
+				<str>house of representatives</str>
+				<str>selma</str>
+				<str>alabama</str>
+				<str>edmund pettus bridge</str>
+				<str>congressman</str>
+				<str>john lewis</str>
+				<str>cbs</str>
+				<str>bob schieffer</str>
+			</arr>
+			<arr name="SceneCaptureType_en">
+				<str>Standard</str>
+			</arr>
+			<arr name="Contributor">
+				<str>Author|Bill Clark</str>
+				<str>Caption Writer/Editor|BC</str>
+				<str>creator|Bill Clark</str>
+			</arr>
+			<arr name="date_en">
+				<str>2015-02-14T16:55:02</str>
+			</arr>
+			<arr name="FocalPlaneXResolution_en">
+				<str>32768/4485575 unknown (4)</str>
+			</arr>
+			<arr name="ObjectName_en">
+				<str>selma_163_021415.JPG</str>
+			</arr>
+			<arr name="tiff:ResolutionUnit_en">
+				<str>Inch</str>
+			</arr>
+			<arr name="meta:author_en">
+				<str>Bill Clark</str>
+			</arr>
+			<arr name="Copyright_en">
+				<str>Copyright 1999 Adobe Systems Incorporated</str>
+			</arr>
+			<arr name="CountryPrimaryLocationName_en">
+				<str>United States</str>
+			</arr>
+			<arr name="XMPValueCount_en">
+				<str>166</str>
+			</arr>
+			<arr name="tiff:Software_en">
+				<str>Adobe Photoshop Lightroom 4.1 (Macintosh)</str>
+			</arr>
+			<arr name="SubjectDistanceRange_en">
+				<str>Unknown</str>
+			</arr>
+			<arr name="WhiteBalance_en">
+				<str>Unknown</str>
+			</arr>
+			<arr name="FocalPlaneResolutionUnit_en">
+				<str>Unknown (4)</str>
+			</arr>
+			<arr name="ApertureValue_en">
+				<str>F4</str>
+			</arr>
+			<arr name="DateCreated_en">
+				<str>Sat Feb 14 00:00:00 UTC 2015</str>
+			</arr>
+			<arr name="Sub-SecTimeDigitized_en">
+				<str>90</str>
+			</arr>
+			<arr name="RedTRC_en">
+				<str>0.0085908</str>
+			</arr>
+			<arr name="GreenTRC_en">
+				<str>0.0085908</str>
+			</arr>
+			<arr name="SceneType_en">
+				<str>Directly photographed image</str>
+			</arr>
+			<arr name="ExposureTime_en">
+				<str>1/2000 sec</str>
+			</arr>
+			<arr name="exif:DateTimeOriginal_en">
+				<str>2015-02-14T09:16:53</str>
+			</arr>
+			<arr name="BlueTRC_en">
+				<str>0.0085908</str>
+			</arr>
+			<arr name="exif:FocalLength_en">
+				<str>200.0</str>
+			</arr>
+			<arr name="City_en">
+				<str>Selma</str>
+			</arr>
+			<arr name="ProfileConnectionSpace_en">
+				<str>XYZ</str>
+			</arr>
+			<arr name="MediaBlackPoint_en">
+				<str>(0.0, 0.0, 0.0)</str>
+			</arr>
+			<arr name="Colorspace_en">
+				<str>RGB</str>
+			</arr>
+			<arr name="SerialNumber_en">
+				<str>2020686</str>
+			</arr>
+			<arr name="CustomRendered_en">
+				<str>Normal process</str>
+			</arr>
+			<arr name="LensModel_en">
+				<str>70.0-200.0 mm f/2.8</str>
+			</arr>
+			<arr name="DigitalZoomRatio_en">
+				<str>1</str>
+			</arr>
+			<arr name="ExposureProgram_en">
+				<str>Manual control</str>
+			</arr>
+			<arr name="YResolution_en">
+				<str>300 dots per inch</str>
+			</arr>
+			<arr name="Software_en">
+				<str>Adobe Photoshop Lightroom 4.1 (Macintosh)</str>
+			</arr>
+			<arr name="CopyrightNotice_en">
+				<str>© 2015 CQ-Roll Call, Inc.</str>
+			</arr>
+			<arr name="meta:save-date_en">
+				<str>2015-02-14T16:55:02</str>
+			</arr>
+			<arr name="By-lineTitle_en">
+				<str>Staff Photographer</str>
+			</arr>
+			<arr name="DigitalTimeCreated_en">
+				<str>09:16:53</str>
+			</arr>
+			<arr name="ExposureMode_en">
+				<str>Manual exposure</str>
+			</arr>
+			<arr name="ExifVersion_en">
+				<str>2.30</str>
+			</arr>
+			<arr name="SensingMethod_en">
+				<str>One-chip color area sensor</str>
+			</arr>
+			<arr name="TimeCreated_en">
+				<str>09:16:53-0500</str>
+			</arr>
+			<arr name="exif:Flash_en">
+				<str>false</str>
+			</arr>
+			<arr name="DCTEncodeVersion_en">
+				<str>1</str>
+			</arr>
+			<arr name="XResolution_en">
+				<str>300 dots per inch</str>
+			</arr>
+			<arr name="ShutterSpeedValue_en">
+				<str>1/1999 sec</str>
+			</arr>
+			<arr name="GreenColorant_en">
+				<str>(0.20527649, 0.6256714, 0.06086731)</str>
+			</arr>
+			<str name="Body">UNITED STATES - FEBRUARY 14: Rep. John Lewis, D-Ga., walks across the Edmund Pettus Bridge with Bob Schieffer of CBS News on Saturday, Feb. 14, 2015. Rep. Lewis was beaten by police on the bridge on "Bloody Sunday" 50 years ago on March 7, 1965, during an attempted march for voting rights from Selma to Montgomery. (Photo By Bill Clark/CQ Roll Call)</str>
+			<arr name="tiff:XResolution_en">
+				<str>300.0</str>
+			</arr>
+			<arr name="ApplicationRecordVersion_en">
+				<str>3</str>
+			</arr>
+			<arr name="ProfileDescription_en">
+				<str>Adobe RGB (1998)</str>
+			</arr>
+			<arr name="CMMType_en">
+				<str>ADBE</str>
+			</arr>
+			<arr name="SupplementalCategory(s)_en">
+				<str>POL</str>
+			</arr>
+			<arr name="Last-Save-Date_en">
+				<str>2015-02-14T16:55:02</str>
+			</arr>
+			<arr name="dc:title_en">
+				<str>selma_163_021415.JPG</str>
+			</arr>
+			<arr name="exif:FNumber_en">
+				<str>4.0</str>
+			</arr>
+			<arr name="meta:creation-date_en">
+				<str>2015-02-14T09:16:53</str>
+			</arr>
+			<arr name="Flags0_en">
+				<str>64</str>
+			</arr>
+			<arr name="Last-Modified_en">
+				<str>2015-02-14T16:55:02</str>
+			</arr>
+			<arr name="CountryPrimaryLocationCode_en">
+				<str>USA</str>
+			</arr>
+			<arr name="Flags1_en">
+				<str>0</str>
+			</arr>
+			<arr name="Saturation_en">
+				<str>None</str>
+			</arr>
+			<arr name="X-Parsed-By_en">
+				<str>org.apache.tika.parser.DefaultParser</str>
+				<str>org.apache.tika.parser.jpeg.JpegParser</str>
+			</arr>
+			<arr name="Unknowntag(0x02dd)_en">
+				<str>0:0:5:-00001</str>
+			</arr>
+			<arr name="modified_en">
+				<str>2015-02-14T16:55:02</str>
+			</arr>
+			<arr name="FocalLength35_en">
+				<str>200mm</str>
+			</arr>
+			<arr name="MaxApertureValue_en">
+				<str>F2.8</str>
+			</arr>
+			<arr name="Source_en">
+				<str>CQ Roll Call</str>
+			</arr>
+			<arr name="ThumbnailOffset_en">
+				<str>972 bytes</str>
+			</arr>
+			<arr name="Headline_en">
+				<str>Selma Bloody Sunday 50th Anniversary</str>
+			</arr>
+			<arr name="ThumbnailLength_en">
+				<str>18259 bytes</str>
+			</arr>
+			<arr name="ThumbnailCompression_en">
+				<str>JPEG (old-style)</str>
+			</arr>
+			<arr name="Content-Type_en">
+				<str>image/jpeg</str>
+			</arr>
+			<arr name="ExposureBiasValue_en">
+				<str>0 EV</str>
+			</arr>
+			<arr name="LensInformation_en">
+				<str>700/10 2000/10 28/10 28/10</str>
+			</arr>
+			<arr name="By-line_en">
+				<str>Bill Clark</str>
+			</arr>
+			<arr name="ProvinceState_en">
+				<str>AL</str>
+			</arr>
+			<arr name="BlueColorant_en">
+				<str>(0.14918518, 0.06321716, 0.7445679)</str>
+			</arr>
+			<arr name="Credit_en">
+				<str>CQ Roll Call</str>
+			</arr>
+			<arr name="dcterms:created_en">
+				<str>2015-02-14T09:16:53</str>
+			</arr>
+			<arr name="PrimaryPlatform_en">
+				<str>Apple Computer, Inc.</str>
+			</arr>
+			<arr name="exif:ExposureTime_en">
+				<str>5.0E-4</str>
+			</arr>
+			<arr name="Signature_en">
+				<str>acsp</str>
+			</arr>
+			<arr name="Component1_en">
+				<str>Y component: Quantization table 0, Sampling factors 1 horiz/1 vert</str>
+			</arr>
+			<arr name="Component2_en">
+				<str>Cb component: Quantization table 1, Sampling factors 1 horiz/1 vert</str>
+			</arr>
+			<arr name="Component3_en">
+				<str>Cr component: Quantization table 1, Sampling factors 1 horiz/1 vert</str>
+			</arr>
+			<arr name="Flash_en">
+				<str>Flash did not fire</str>
+			</arr>
+			<arr name="FocalPlaneYResolution_en">
+				<str>32768/4485575 unknown (4)</str>
+			</arr>
+			<arr name="DateTimeDigitized_en">
+				<str>2015:02:14 09:16:53</str>
+			</arr>
+			<arr name="Devicemanufacturer_en">
+				<str>none</str>
+			</arr>
+			<arr name="FileSize_en">
+				<str>7146365 bytes</str>
+			</arr>
+			<arr name="ColorTransform_en">
+				<str>YCbCr</str>
+			</arr>
+			<arr name="Contrast_en">
+				<str>None</str>
+			</arr>
+			<arr name="ResolutionUnit_en">
+				<str>Inch</str>
+			</arr>
+			<arr name="Sub-SecTimeOriginal_en">
+				<str>90</str>
+			</arr>
+			<arr name="TagCount_en">
+				<str>10</str>
+			</arr>
+			<arr name="NumberofComponents_en">
+				<str>3</str>
+			</arr>
+			<arr name="ProfileDateTime_en">
+				<str>Sat Jul 03 00:00:00 UTC 1999</str>
+			</arr>
+			<arr name="tiff:Model_en">
+				<str>NIKON D4</str>
+			</arr>
+			<arr name="dcterms:modified_en">
+				<str>2015-02-14T16:55:02</str>
+			</arr>
+			<arr name="ImageHeight_en">
+				<str>3280 pixels</str>
+			</arr>
+			<arr name="dc:creator_en">
+				<str>Bill Clark</str>
+			</arr>
+			<arr name="CaptionDigest_en">
+				<str>-63 -24 -60 123 126 11 27 -2 -111 80 -88 38 83 -51 -89 12</str>
+			</arr>
+			<arr name="LensSpecification_en">
+				<str>700/10 2000/10 28/10 28/10</str>
+			</arr>
+			<arr name="DateTime_en">
+				<str>2015:02:14 16:55:02</str>
+			</arr>
+			<arr name="FileSource_en">
+				<str>Digital Still Camera (DSC)</str>
+			</arr>
+			<arr name="GainControl_en">
+				<str>None</str>
+			</arr>
+			<long name="_version_">1529409176602673152</long>
+		</doc>
+	</result>
+</response>

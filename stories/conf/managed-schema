@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema name="tags" version="1.6">
+<schema name="stories" version="1.6">
 	<uniqueKey>id</uniqueKey>
-	<fieldType name="suggestTypeLc" class="solr.TextField" positionIncrementGap="100">
-		<analyzer>
-			<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="[^a-zA-Z0-9]" replacement=" "/>
-			<tokenizer class="solr.WhitespaceTokenizerFactory"/>
-			<filter class="solr.LowerCaseFilterFactory"/>
-		</analyzer>
-	</fieldType>
-	<fieldType name="Tag_str" class="solr.TextField" sortMissingLast="true">
-		<analyzer>
-			<tokenizer class="solr.PatternTokenizerFactory" pattern="\|(.*)"/>
-		</analyzer>
-	</fieldType>
-	<fieldType name="URL" class="solr.TextField">
-		<analyzer type="index">
-			<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="/" replacement=" "/>
-			<tokenizer class="solr.WhitespaceTokenizerFactory"/>
-		</analyzer>
-		<analyzer type="query">
-			<tokenizer class="solr.KeywordTokenizerFactory"/>
-		</analyzer>
-	</fieldType>
 	<fieldType name="ancestor_path" class="solr.TextField">
 		<analyzer type="index">
 			<tokenizer class="solr.KeywordTokenizerFactory"/>
@@ -30,6 +9,16 @@
 			<tokenizer class="solr.PathHierarchyTokenizerFactory" delimiter="/"/>
 		</analyzer>
 	</fieldType>
+    <fieldType name="URL" class="solr.TextField">
+      <analyzer type="index">
+   
+		  <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="/" replacement=" "/>
+             <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      </analyzer>
+      <analyzer type="query">
+	<tokenizer class="solr.KeywordTokenizerFactory" />
+      </analyzer>
+    </fieldType>   		
 	<fieldType name="binary" class="solr.BinaryField"/>
 	<fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
 	<fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
@@ -59,12 +48,6 @@
 		<analyzer>
 			<tokenizer class="solr.KeywordTokenizerFactory"/>
 			<filter class="solr.LowerCaseFilterFactory"/>
-		</analyzer>
-	</fieldType>
-	<fieldType name="phonetic" class="solr.TextField" indexed="true" stored="false">
-		<analyzer>
-			<tokenizer class="solr.StandardTokenizerFactory"/>
-			<filter class="solr.DoubleMetaphoneFilterFactory" inject="false"/>
 		</analyzer>
 	</fieldType>
 	<fieldType name="phonetic_en" class="solr.TextField" indexed="true" stored="false">
@@ -264,6 +247,45 @@
 			<filter class="solr.LowerCaseFilterFactory"/>
 		</analyzer>
 	</fieldType>
+	
+<!-- The following fields are taken from Solr in Action and are used to implement suggestions -->
+	
+		<fieldType name="text_suggest" class="solr.TextField" positionIncrementGap="100">
+			<analyzer>
+				<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.EnglishPossessiveFilterFactory"/>
+			</analyzer>
+		</fieldType>
+		<fieldType name="text_suggest_ngram" class="solr.TextField" positionIncrementGap="100">
+			<analyzer type="index">
+				<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.EnglishPossessiveFilterFactory"/>
+				<filter class="solr.EdgeNGramFilterFactory" maxGramSize="10" minGramSize="1"/>
+			</analyzer>
+			<analyzer type="query">
+				<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
+				<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+				<filter class="solr.LowerCaseFilterFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory"/>
+				<filter class="solr.EnglishPossessiveFilterFactory"/>
+			</analyzer>
+		</fieldType>		
+		
+	<!-- JMK field for phoneme searching --> 
+
+	<fieldtype name="phonetic" stored="false" indexed="true" class="solr.TextField">
+		<analyzer>
+			<tokenizer class="solr.StandardTokenizerFactory"/>
+			<filter class="solr.DoubleMetaphoneFilterFactory" inject="false"/>
+		</analyzer>
+	</fieldtype>	
+	
 	<fieldType name="text_general_rev" class="solr.TextField" positionIncrementGap="100">
 		<analyzer type="index">
 			<tokenizer class="solr.StandardTokenizerFactory"/>
@@ -389,32 +411,6 @@
 			<filter class="solr.SnowballPorterFilterFactory" language="Russian"/>
 		</analyzer>
 	</fieldType>
-	<fieldType name="text_suggest" class="solr.TextField" positionIncrementGap="100">
-		<analyzer>
-			<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
-			<filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
-			<filter class="solr.LowerCaseFilterFactory"/>
-			<filter class="solr.ASCIIFoldingFilterFactory"/>
-			<filter class="solr.EnglishPossessiveFilterFactory"/>
-		</analyzer>
-	</fieldType>
-	<fieldType name="text_suggest_ngram" class="solr.TextField" positionIncrementGap="100">
-		<analyzer type="index">
-			<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
-			<filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
-			<filter class="solr.LowerCaseFilterFactory"/>
-			<filter class="solr.ASCIIFoldingFilterFactory"/>
-			<filter class="solr.EnglishPossessiveFilterFactory"/>
-			<filter class="solr.EdgeNGramFilterFactory" maxGramSize="10" minGramSize="1"/>
-		</analyzer>
-		<analyzer type="query">
-			<tokenizer class="solr.UAX29URLEmailTokenizerFactory"/>
-			<filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
-			<filter class="solr.LowerCaseFilterFactory"/>
-			<filter class="solr.ASCIIFoldingFilterFactory"/>
-			<filter class="solr.EnglishPossessiveFilterFactory"/>
-		</analyzer>
-	</fieldType>
 	<fieldType name="text_sv" class="solr.TextField" positionIncrementGap="100">
 		<analyzer>
 			<tokenizer class="solr.StandardTokenizerFactory"/>
@@ -449,34 +445,10 @@
 	<fieldType name="tints" class="solr.TrieIntField" positionIncrementGap="0" docValues="true" multiValued="true" precisionStep="8"/>
 	<fieldType name="tlong" class="solr.TrieLongField" positionIncrementGap="0" docValues="true" precisionStep="8"/>
 	<fieldType name="tlongs" class="solr.TrieLongField" positionIncrementGap="0" docValues="true" multiValued="true" precisionStep="8"/>
-	<field name="Body" type="text_en_splitting" indexed="true" stored="false"/>
-	<field name="Body_raw" type="string" docValues="false" indexed="false" stored="true"/>
-	<field name="CQRCid" type="string" multiValued="false" indexed="true" stored="true"/>
-	<field name="Category" type="text_en" multiValued="true" indexed="true"/>
-	<field name="Category_str" type="string" indexed="true" stored="true"/>
-	<field name="Contributor" type="text_general" multiValued="false" indexed="true" stored="true"/>
-	<field name="CreatedDate" type="date" indexed="true" stored="true"/>
-	<field name="PageID" type="string" indexed="true" stored="true"/>
-	<field name="Private" type="string" indexed="true" stored="true"/>
-	<field name="Query" type="string" indexed="true" stored="true"/>
-	<field name="SubTitle" type="text_general" multiValued="false" indexed="true" stored="true"/>
-	<field name="SubTitle_raw" type="string" docValues="false" indexed="false" stored="true"/>
-	<field name="Tag" type="string" omitNorms="true" indexed="true" stored="true"/>
-	<field name="Tag_str" type="Tag_str" indexed="true" stored="true"/>
-	<field name="Title" type="text_general" multiValued="false" indexed="true" stored="true"/>
-	<field name="Title_raw" type="string" docValues="false" indexed="false" stored="true"/>
-	<field name="URLSlug" type="text_general" multiValued="true" indexed="true" stored="true"/>
-	<field name="URLSlug_path" type="URL" multiValued="true" indexed="true" stored="false"/>
-	<field name="UpdateDate" type="date" indexed="true" stored="true"/>
 	<field name="_root_" type="string" docValues="false" indexed="true" stored="false"/>
 	<field name="_text_" type="text_general" multiValued="true" indexed="true" stored="false"/>
 	<field name="_version_" type="long" indexed="true" stored="false"/>
-	<field name="altTitle" type="text_general" multiValued="true" indexed="true" stored="true"/>
-	<field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
-	<field name="phoneme" type="phonetic" multiValued="true" indexed="true" stored="false"/>
-	<field name="suggest" type="text_suggest" multiValued="true" indexed="true" stored="false"/>
-	<field name="suggest_ngram" type="text_suggest_ngram" multiValued="true" indexed="true" stored="false"/>
-	<field name="text" type="text_en" multiValued="true" indexed="true"/>
+
 	<dynamicField name="*_txt_en_split_tight" type="text_en_splitting_tight" indexed="true" stored="true"/>
 	<dynamicField name="*_descendent_path" type="descendent_path" indexed="true" stored="true"/>
 	<dynamicField name="*_ancestor_path" type="ancestor_path" indexed="true" stored="true"/>
@@ -550,19 +522,109 @@
 	<dynamicField name="*_d" type="double" indexed="true" stored="true"/>
 	<dynamicField name="*_p" type="location" indexed="true" stored="true"/>
 	<dynamicField name="*_c" type="currency" indexed="true" stored="true"/>
-	<copyField source="Body" dest="text"/>
-	<copyField source="Category_str" dest="Category"/>
-	<copyField source="Category_str" dest="text"/>
-	<copyField source="SubTitle" dest="text"/>
-	<copyField source="Tag" dest="phoneme"/>
-	<copyField source="Tag" dest="Tag_str"/>
-	<copyField source="Tag" dest="suggest"/>
-	<copyField source="Tag" dest="suggest_ngram"/>
-	<copyField source="Tag" dest="text"/>
-	<copyField source="Title" dest="suggest"/>
+	
+	<field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+	
+	<!-- **********************************************************************************-->
+	<!-- ********** Fields defined for Stories                                                     -->
+	<!-- 	Version 2.1
+			Version History
+			 V 2.1 - Changed definition of text_general to remove multiValued="true"
+			V 2.0 - Upgrrade to solr 6.2.1 and managed schema
+	
+	
+	-->
+	<!-- **********************************************************************************-->
+	<field name="DocID" type="string" indexed="true" stored="true"/>
+	<field name="Active" type="string" indexed="true" stored="true" default="false"/>
+	<field name="URLSlug" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="URLSlug_path" type="URL" indexed="true" stored="false" multiValued="true"/>
+	<field name="Section" type="text_general" indexed="true" stored="true"  multiValued="false"/>
+	<!-- used for organizing content into sections for SEO ex. /news/<section>/<URLSlug> -->
+	<field name="SectionID" type="string" indexed="true" multiValued="false" stored="true"/>
+	<!-- This is the GUID of the tag used to determine section-->
+	<field name="CanonicalURL" type="text_general" indexed="true" stored="true"  multiValued="false"/>
+	<field name="state" type="string" indexed="true" stored="true"/>
+	<field name="PriorState" type="string" indexed="true" stored="true"/>
+	<field name="Significance" type="string" indexed="true" stored="true"/>
+	<field name="IncludeText" type="string" indexed="true" stored="true"/>
+	<field name="Comment" type="string" indexed="true" stored="true" multiValued="true"/>
+	<field name="PostDestination" type="string" indexed="true" stored="true"/>
+	<field name="Title" type="text_en" indexed="true" stored="true"/>
+	<!-- change to lower case -->
+	<field name="Title_raw" type="string" indexed="false" stored="true" docValues="false"/>
+	<field name="Topic" type="text_en" indexed="true" stored="true"/>
+	<!-- organization label. -->
+	<field name="altTitle" type="text_en" indexed="true" stored="true" multiValued="true"/>
+	<!-- must be text and not html Stored in the form of <title type>|||<base64encoded content> -->
+	<field name="altBody" type="text_en" indexed="true" stored="true" multiValued="true"/>
+	<!-- must be text and not html Stored in the form of <body type>|||<base64encoded content>  -->
+	<field name="altImage" type="string" indexed="true" stored="true" multiValued="true"/>
+	<!-- must be text and not html Stored in the form of <image type>|||<root relative URL>  -->
+	<field name="Keywords" type="text_en" indexed="true" stored="true" multiValued="true"/>
+	
+	
+	<field name="SubTitle" type="text_en" indexed="true" stored="true"/>
+	<field name="SubTitle_raw" type="string" indexed="false" stored="true" docValues="false"/>
+	<field name="Body" type="text_en" indexed="true" stored="true"/>
+	<field name="Body_raw" type="string" indexed="false" stored="true" docValues="false"/>
+	<field name="ContentOriginal" type="string" indexed="false" stored="true" docValues="false"/>
+	
+	<field name="Contributor" type="text_general" indexed="true" stored="true" multiValued="true"/>
+	<field name="ContributorID" type="string" indexed="true" stored="true" multiValued="true"/>
+	<field name="PrimaryImageFileName" type="text_en_splitting" indexed="true" stored="false"/>
+	<field name="PrimaryImageOriginal" type="string" indexed="true" multiValued="false" stored="true"/>
+	<field name="PrimaryImageDerived" type="string" indexed="false" multiValued="true" stored="true"/>
+	<field name="PrimaryImageContributor" type="string" indexed="true" multiValued="true" stored="true"/>
+	<field name="PrimaryImageCaption" type="text_en" indexed="true" multiValued="false" stored="true"/>
+	<field name="OtherImages" type="string" indexed="true" multiValued="true" stored="true"/>
+	<field name="SplashImageFileName" type="text_en_splitting" indexed="true" stored="false"/>
+	<field name="SplashImageOriginal" type="string" indexed="false" multiValued="false" stored="true"/>
+	<field name="SplashImageDerived" type="string" indexed="false" multiValued="true" stored="true"/>
+	<field name="VideoLocation" type="text_general" indexed="true" multiValued="true" stored="true"/>
+	<field name="VideoFileName" type="text_en_splitting" indexed="true" stored="true"/>
+	<field name="Uploader" type="text_general" indexed="true" stored="true"  multiValued="false"/>
+	<field name="UploadDate" type="date" indexed="true" stored="true"/>
+	<!-- datetime that the story was uploaded. Not used. Kept for compatibility -->
+	<field name="UploadMethod" type="string" indexed="true" stored="true"/>
+	<field name="CurrentUser" type="text_general" indexed="true" stored="true" multiValued="false"/>
+	<field name="CreatedDate" type="date" indexed="true" stored="true"/>
+	<!-- Date first created. Also used in the ID -->
+	<field name="UpdateDate" type="date" indexed="true" stored="true"/>
+	<!-- Date last modified -->
+	<field name="LastProcessedDate" type="date" indexed="true" stored="true"/>
+	<!-- Date last that the last automated processing was run on this story -->
+	
+	<field name="PublishDate" type="date" indexed="true" stored="true"/>
+	<!-- Date published. If a future date then it is used to embargo the content -->
+	<field name="ExpirationDate" type="date" indexed="true" stored="true"/>
+	<!-- If expiraiton date is in the past the content should be unpublished -->
+	<field name="Category" type="text_en_splitting" indexed="true" multiValued="true" stored="true"/>
+	<field name="Tag" type="string" indexed="true" multiValued="true" stored="true"/>
+	<!-- This is the GUID of the tag -->
+	<field name="TagName" type="text_en_splitting" indexed="true" multiValued="true" stored="false"/>
+	<!-- the actual tag text  used for full text searching -->
+	<field name="RelatedID" type="string" indexed="true" stored="true" multiValued="true"/>
+	<field name="ContentType" type="string" indexed="true" stored="true" multiValued="true"/>
+	<field name="suggest_ngram" type="text_suggest_ngram" indexed="true" multiValued="true" stored="false"/>
+	<field name="suggest" type="text_suggest" indexed="true" multiValued="true" stored="false"/>
+	<field name="phoneme" type="phonetic" indexed="true" multiValued="true" stored="false"/>
 	<copyField source="Title" dest="suggest_ngram"/>
+	<copyField source="SubTitle" dest="suggest_ngram"/>
+	<copyField source="Body" dest="suggest_ngram"/>
+	<copyField source="Title" dest="suggest"/>
+	<copyField source="SubTitle" dest="suggest"/>
+	<copyField source="Body" dest="suggest"/>
+	<copyField source="Title" dest="phoneme"/>
+	<copyField source="SubTitle" dest="phoneme"/>
+	<copyField source="Body" dest="phoneme"/>
 	<copyField source="Title" dest="text"/>
+	<copyField source="SubTitle" dest="text"/>
 	<copyField source="URLSlug" dest="URLSlug_path"/>
-	<copyField source="URLSlug" dest="text"/>
+	<copyField source="Body" dest="text"/>
+	<copyField source="Contributor" dest="text"/>
+	<copyField source="TagName" dest="text"/>
+	<field name="text" type="text_en" indexed="true" multiValued="true" stored="false"/>
+	
 	<copyField source="*" dest="_text_"/>
 </schema>

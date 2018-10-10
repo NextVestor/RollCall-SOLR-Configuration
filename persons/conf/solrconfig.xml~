@@ -1071,25 +1071,13 @@
     -->
   <searchComponent name="suggest" class="solr.SuggestComponent">
     <lst name="suggester">
-      <str name="name">personSuggester_pre</str>
+      <str name="name">personSuggester</str>
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>      
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
       <str name="field">OrderByName</str>
       <!-- str name="weightField">price</str -->
       <str name="suggestAnalyzerFieldType">suggestTypeLc</str>
       <str name="buildOnStartup">false</str>
-      <str name="buildOnCommit">true</str>
-      <str name="contextField">Active</str>
-    </lst>
-    <lst name="suggester">
-      <str name="name">personSuggester_fuzzy</str>
-      <str name="lookupImpl">FuzzyLookupFactory</str>
-      <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-      <str name="field">OrderByName</str>
-      <!-- str name="weightField">price</str -->
-      <str name="suggestAnalyzerFieldType">suggestTypeLc</str>
-      <str name="buildOnStartup">false</str>
-      <str name="buildOnCommit">true</str>     
     </lst>
   </searchComponent>
 

@@ -617,8 +617,9 @@
     <field name="SplashImageDerived" type="string" indexed="false" multiValued="true"  stored="true"/>    
     <field name="CreatedDate" type="date" indexed="true" stored="true"/> <!-- Date first created. Also used in the ID --> 
     <field name="UpdateDate" type="date" indexed="true" stored="true"/>  <!-- Date last modified -->   
-    <field name="PublishDate" type="date" indexed="true" stored="true"/> <!-- Date published. If a future date then it is used to embargo the content -->
-    <field name="Category" type="text_en_splitting" indexed="true" multiValued="true"  stored="true"/>    
+	<field name="PublishDate" type="date" indexed="true" stored="true"/> <!-- Date published. If a future date then it is used to embargo the content -->
+	<field name="ExpirationDate" type="date" indexed="true" stored="true"/> <!-- Date this card expires and the list reverts to dynamic list.  -->
+	<field name="Category" type="text_en_splitting" indexed="true" multiValued="true"  stored="true"/>    
     <field name="Tag" type="text_en_splitting" indexed="true" multiValued="true"  stored="true"/>
 
 </schema>
